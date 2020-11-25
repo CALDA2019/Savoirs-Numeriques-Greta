@@ -11,18 +11,18 @@
       <div class="main-content-block">
         <h1>Liste des exercices</h1>
         <h2>Les clics</h2>
-        <p>Pour s'exercer au clic, double clic et clic droit : <a href="01_Clics.html">cliquer
+        <p>Pour s'exercer au clic, double clic et clic droit : <a href="01_Clics.html">cliquez
             ici</a></p>
         <img src="img/Cmouse-click.png"> <img src="img/Cmouse-dblclick.png">
         <img src="img/Cmouse-rightclick.png"> </div>
       <div class="main-content-block">
         <h2>Le glissé déposer</h2>
-        <p>Pour s'exercer au glisser déposé : <a href="02_glissedepose.html">cliquer
+        <p>Pour s'exercer au glisser déposé : <a href="02_glissedepose.html">cliquez
             ici</a></p>
       </div>
       <div class="main-content-block">
         <h2>Texte et souris</h2>
-        <p>Placer le curseur, sélectionner du texte : <a href="texteselection%5Cindex.html">cliquer
+        <p>Placez le curseur, sélectionnez du texte : <a href="03_texteselection.html">cliquez
             ici</a></p>
       </div>
       <div class="main-content-block">
