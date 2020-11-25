@@ -7,7 +7,7 @@
   </head>
   <body> 
     <script src="js/jquery-3.1.1.js"></script>
-    <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+    <script src="https://calda2019.github.io/Blog-CAP-Digital/js/tinymce.min.js" referrerpolicy="origin"></script>
   <script>var score=0;$(document).ready(function(){tinymce.init({selector:'textarea',height:10,menubar:false,plugins:['advlist autolink lists link image charmap print preview anchor textcolor','searchreplace visualblocks code fullscreen','insertdatetime media table contextmenu paste code'],toolbar:'undo redo | bold italic forecolor backcolor  ',});});</script>
     <div class="exercice">
       <p> </p>
