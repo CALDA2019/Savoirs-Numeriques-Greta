@@ -4,8 +4,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <link rel="stylesheet" href="css/exos.css">
     <style>
-</style>
-  </head>
+</style> </head>
   <body>
     <div id="main-container">
       <div class="main-content-block">
@@ -13,8 +12,9 @@
         <h2>Les clics</h2>
         <p>Pour s'exercer au clic, double clic et clic droit : <a href="01_Clics.html">cliquez
             ici</a></p>
-        <img src="img/Cmouse-click.png"> <img src="img/Cmouse-dblclick.png">
-        <img src="img/Cmouse-rightclick.png"> </div>
+        <img src="img/mouse-click.png"> <img src="img/mouse-dblclick.png"> <img
+
+          src="img/mouse-rightclick.png"> </div>
       <div class="main-content-block">
         <h2>Le glissé déposer</h2>
         <p>Pour s'exercer au glisser déposé : <a href="02_glissedepose.html">cliquez
@@ -22,7 +22,7 @@
       </div>
       <div class="main-content-block">
         <h2>Texte et souris</h2>
-        <p>Placez le curseur, sélectionnez du texte : <a href="03_texteselection.html">cliquez
+        <p>Placer le curseur, sélectionner du texte : <a href="03_texteselection.html">cliquez
             ici</a></p>
       </div>
       <div class="main-content-block">
