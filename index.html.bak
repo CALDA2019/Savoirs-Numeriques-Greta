@@ -28,35 +28,35 @@
       <div class="main-content-block">
         <h2>Edition simple</h2>
         <p>Saisir du texte, des majuscules, sélection et modification de style :
-          <a href="editor%5Cindex.html">cliquer ici</a></p>
+          <a href="04_Edition_simple.html">cliquer ici</a></p>
       </div>
       <div class="main-content-block">
         <h2>Edition caractères</h2>
         <p>Saisir du texte avec de la ponctuation et des caractères compliqués :
-          <a href="editor%5Ceditmodificationkeys.html">cliquer ici</a></p>
+          <a href="05_Edition_caractères.html">cliquer ici</a></p>
       </div>
       <div class="main-content-block">
         <h2>Barre d'espace et ponctuation</h2>
-        <p>trouver les caractères de ponctuation : <a href="editor%5Cponctuation.html">cliquer
+        <p>trouver les caractères de ponctuation : <a href="06_ponctuation.html">cliquez
             ici</a></p>
       </div>
       <div class="main-content-block">
         <h2>Touches de raccourcis</h2>
-        <p>Utiliser des raccourcis clavier et faire de la mise en page : <a href="editor%5Cshortcuts.html">cliquer
+        <p>Utiliser des raccourcis clavier et faire de la mise en page : <a href="editor%5Cshortcuts.html">cliquez
             ici</a></p>
       </div>
       <div class="main-content-block">
         <h2>Tabulation</h2>
-        <p>La touche TAB : <a href="editor%5Ctab.html">cliquer ici</a></p>
+        <p>La touche TAB : <a href="07_tab.html">cliquez ici</a></p>
       </div>
       <div class="main-content-block">
         <h2>Accents</h2>
-        <p>Quelques accents difficiles à faire : <a href="editor%5Caccents.html">cliquer
+        <p>Quelques accents difficiles à faire : <a href="08_accents.html">cliquer
             ici</a></p>
       </div>
       <div class="main-content-block">
         <h2>Suppression</h2>
-        <p>Suppressions et retours en arrière : <a href="editor%5Csuppr.html">cliquer
+        <p>Suppressions et retours en arrière : <a href="09_suppr.html">cliquer
             ici</a></p>
       </div>
       <div class="main-content-block">
