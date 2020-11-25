@@ -1,13 +1,14 @@
-<!DOCTYPE html>
+﻿<!doctype html>
 <html>
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <title>Ponctuation</title>
-    <link rel="stylesheet" href="css/exos.css">
-  </head>
-  <body> 
-    <script src="js/jquery-3.1.1.js"></script>
-    <script src="js/tinymce.min.js"></script>
+<head>
+    <meta charset="utf-8">
+    <title>Editer</title>
+    <link rel="stylesheet" href="..\exos.css">
+
+</head>
+<body>
+    <script src="..\xtras\jquery-3.1.1.js"></script>
+    <script src="tinymce4-5-2\tinymce.min.js"></script>
     <script>
     var score = 0 ;
     $( document ).ready(function() {
@@ -26,13 +27,18 @@
     });
 
     </script>
+
     <div class="exercice">
-      <p> </p>
-      <ol>
-        <li>Saisir "Où es tu?"</li>
-        <li>Saisir "Je suis là!"</li>
-        <li>Saisir "§ ; / . !"</li>
-      </ol>
-      <textarea>        </textarea> </div>
-  </body>
+      <p>
+        <ol>
+          <li>Saisir "Bienvenue à l'Université Populaire! (notre adresse = contact@adn56.net)"</li>
+          <li>Saisir "[ | # ; & < > ? ]"</li>
+          <li>Saisir "1ère leçon"</li>
+        </ol>
+        <textarea>
+        </textarea>
+      
+    </div>
+
+</body>
 </html>
