@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/exos.css">
   </head>
   <body> 
-    <script src="js/jquery-3.1.1.js"></script>
+    <script src="..%5Cxtras%5Cjquery-3.1.1.js"></script>
     <script>
     var score = 0 ;
     $( document ).ready(function() {

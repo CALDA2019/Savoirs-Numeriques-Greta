@@ -1,12 +1,13 @@
-<!DOCTYPE html>
+﻿<!doctype html>
 <html>
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<head>
+    <meta charset="utf-8">
     <title>Start</title>
-    <link rel="stylesheet" href="css/exos.css">
-  </head>
-  <body> 
-    <script src="js/jquery-3.1.1.js"></script>
+    <link rel="stylesheet" href="..\exos.css">
+</head>
+<body>
+
+    <script src="https://calda2019.github.io/Blog-CAP-Digital/xtras/jquery-3.1.1.js"></script>
     <script>
     var score = 0 ;
     $( document ).ready(function() {
@@ -48,7 +49,8 @@
       nextChoice();
     }
     </script>
-    <style>
+
+<style>
 #clicarea {
   width : 500px;
   height : 100px;
@@ -63,13 +65,12 @@
 #score{
   color : #85d500;
 }
-</style> <p>Utilisez les boutons de votre souris pour cliquer sur le pavé
-      coloré comme demandé. ( <a href="javascript:location.reload();">redémarrer</a>
-      )</p>
+</style>
+    <p>Utilisez les boutons de votre souris pour cliquer sur le pavé coloré comme demandé.
+    ( <a href="javascript:location.reload();">redémarrer</a> )</p>
     <div id="scorediv">Votre score: <span id="score">0</span> </div>
-    <div id="request">Action demandée : <br>
-      "<span id="clic" class="action">clic</span><span id="doubleclic" class="action">double
-        clic</span><span id="clicdroit" class="action">clic droit</span>" </div>
+    <div id="request">Action demandée : <br>"<span id="clic" class="action">clic</span><span id="doubleclic" class="action">double clic</span><span id="clicdroit" class="action">clic droit</span>"
+    </div>
     <div id="clicarea"></div>
-  </body>
+</body>
 </html>
