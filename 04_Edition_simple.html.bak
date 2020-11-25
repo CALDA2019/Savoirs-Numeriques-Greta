@@ -7,7 +7,7 @@
   </head>
   <body> 
     <script src="js/jquery-3.1.1.js"></script>
-   <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+   <script src="https://cdn.tiny.cloud/1/6kipctfyr1tipp4z6vv2768gf5m6rdmefvjlsx4lw70fbid3/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
     <script>tinymce.init({ selector:'textarea' });</script> <div class="exercice">
       <p> </p>
       <ol>
