@@ -1273,6 +1273,7 @@ fill:#707070
 fill:#212121
 }
 body{
+background-color:#eeeeee;
 color:#757575;
 font:15px Roboto, sans-serif;
 margin:0;
