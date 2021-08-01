@@ -33,8 +33,7 @@
     <table border="0">
       <tbody>
         <tr>
-          <td class="menu_text"> <a href="https://pix.fr/">S1.1 Prendre en main
-              un ordinateur</a></td>
+          <td class="menu_text"> <a href="S11_P1.html">Accueil</a></td>
           <td rowspan="15" style="width:2%"><br>
           </td>
           <td rowspan="15" style="vertical-align: top; background-color: white;">
@@ -42,19 +41,24 @@
           </td>
         </tr>
         <tr>
-          <td class="menu_text">
-            S1.2 Ouverture d’une session Windows
-       </td>
+          <td class="menu_text"> <a href="S11_P1.html">S1.1 Prendre
+              en main un ordinateur</a></td>
+
         </tr>
         <tr>
-          <td class="menu_text">S1.3 Connaître et manipuler le clavier et la souris de l’ordinateur</td>
+          <td class="menu_text"> S1.2 Ouverture d’une session Windows </td>
         </tr>
         <tr>
-          <td class="menu_text">S1.4 Se repérer sur un écran, identifier les icônes</td>
+          <td class="menu_text">S1.3 Connaître et manipuler le clavier et la
+            souris de l’ordinateur</td>
         </tr>
         <tr>
-          <td class="menu_text">
-            S1.5 Ouvrir et fermer une application, utiliser le système de fenêtre<br>
+          <td class="menu_text">S1.4 Se repérer sur un écran, identifier les
+            icônes</td>
+        </tr>
+        <tr>
+          <td class="menu_text"> S1.5 Ouvrir et fermer une application, utiliser
+            le système de fenêtre<br>
           </td>
         </tr>
         <tr>
@@ -64,35 +68,36 @@
           <td class="menu_text">S1.7 Travailler avec plusieurs applications</td>
         </tr>
         <tr>
-          <td class="menu_text">
-            S.8 Identifier les différentes applications et logiciels installés sur son matériel</td>
+          <td class="menu_text"> S.8 Identifier les différentes applications et
+            logiciels installés sur son matériel</td>
         </tr>
         <tr>
-          <td class="menu_text">
-            S1.9 Se connecter à un réseau Internet à partir de son matériel
- </td>
+          <td class="menu_text"> S1.9 Se connecter à un réseau Internet à partir
+            de son matériel </td>
         </tr>
         <tr>
-          <td class="menu_text"></td>
+          <td class="menu_text"><br>
+          </td>
         </tr>
         <tr>
-          <td class="menu_text">
-            </td>
+          <td class="menu_text"> <br>
+          </td>
         </tr>
         <tr>
-          <td class="menu_text">
-             </td>
+          <td class="menu_text"> <br>
+          </td>
         </tr>
         <tr>
-          <td class="menu_text"></td>
+          <td class="menu_text"><br>
+          </td>
         </tr>
         <tr>
-          <td class="menu_text">
-            </td>
+          <td class="menu_text"> <br>
+          </td>
         </tr>
         <tr>
-          <td class="menu_text">
-            </td>
+          <td class="menu_text"> <br>
+          </td>
         </tr>
       </tbody>
     </table>
