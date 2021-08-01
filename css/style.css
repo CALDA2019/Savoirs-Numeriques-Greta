@@ -1,4 +1,10 @@
-  .menu_text{
+.corps_contenu{
+font-size: 14pt;
+line-height: 1.5;
+vertical-align: top;
+}
+  
+.menu_text{
     font-size: 12pt;
     font-weight:bold;  
     text-align: left; 

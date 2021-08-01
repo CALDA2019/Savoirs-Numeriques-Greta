@@ -30,8 +30,23 @@
           <td class="menu_text"> <a href="../../index.html">Accueil</a></td>
           <td rowspan="15" style="width:2%"><br>
           </td>
-          <td rowspan="15" style="vertical-align: top; background-color: white;">
-            <h3> S1 - Débuter avec le numérique</h3>
+          <td rowspan="15" class="corps_contenu">
+            <h3><b>S1 - Débuter avec le numérique</b></h3>
+            <h2> </h2>
+            <p>Dans cette partie, nous verrons les bases du maniement d'un
+              ordinateur. </p>
+            <p>Cela comprend:</p>
+            <ul>
+              <li>Allumer et éteindre un ordinateur</li>
+              <li>Ouvrir sa session sur l'ordinateur</li>
+              <li>L'utilisation du clavier et de la souris</li>
+              <li>Se repérer dans l'interface de Windows</li>
+              <li>Ouvrir et fermer une application sur Windows</li>
+              <li>Prendre en main les bases du couper/coller et du copier/coller</li>
+              <li>Gérer plusieurs fenêtres et passer d'une fenêtre à une autre</li>
+              <li>Reconnaître les différents logiciels présents sur l'ordinateur</li>
+              <li>Savoir connecter un ordinateur portable à Internet.</li>
+            </ul>
             <h1> </h1>
           </td>
         </tr>
