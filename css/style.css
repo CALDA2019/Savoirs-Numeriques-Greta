@@ -1,0 +1,11 @@
+  .menu_text{
+    font-size: 12pt;
+    font-weight:bold;  
+    text-align: left; 
+    vertical-align: top;
+    width:15%;
+  }
+      a{
+      text-decoration:none; 
+      color: black;      
+      }  
