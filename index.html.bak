@@ -34,13 +34,16 @@
       <tbody>
         <tr>
           <td class="menu_text"> <a href="https://pix.fr/">PIX</a></td>
-          <td rowspan="15" style="width:2%"></td>
+          <td rowspan="15" style="width:2%"><br>
+          </td>
           <td rowspan="15" style="vertical-align: top; background-color: white;">Bienvenue
             sur le site de formation Savoirs Numériques.<br>
             <br>
             Vous trouverez ici le contenu et les supports de formation
-            accessibles à la fois en centre de formation mais aussi de
-            chez vous ou en EPN.</td>
+            accessibles à la fois en centre de formation mais aussi de chez vous
+            ou en EPN.<br><br>
+            Pour accéder à un des chapitres de la formation, cliquez sur le titre du chapitre situé à gauche de cette page.
+          </td>
         </tr>
         <tr>
           <td class="menu_text">
