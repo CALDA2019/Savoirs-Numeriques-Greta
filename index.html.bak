@@ -9,18 +9,12 @@
     <table style="width: 100%; " border="0">
       <tbody>
         <tr style="height: 10vh; ">
-          <td style="width: 50%; text-align: left;"><a href="https://greta.ac-normandie.fr/greta/greta-du-calvados/"><img
-
-                src="img/logo_greta_normandie.svg" alt="Logo GRETA" title="Logo GRETA"
-
-                style="height:10vh"></a> <a href="http://www.fse.gouv.fr/"><img
-
-                src="img/3-Logo%20UE%20FSE%20couleur.jpg" alt="Logo FSE" title="Logo REGION"
-
-                style="height:10vh"></a> <a href="https://www.normandie.fr/"><img
-
-                src="img/logo_r.normandie-portrait-cmjn.jpg" alt="Logo FSE" title="Logo FSE"
-
+          <td style="width: 50%; text-align: left;"><a href="https://greta.ac-normandie.fr/greta/greta-du-calvados/"><img
+                src="img/logo_greta_normandie.svg" alt="Logo GRETA" title="Logo GRETA"
+                style="height:10vh"></a> <a href="http://www.fse.gouv.fr/"><img
+                src="img/3-Logo%20UE%20FSE%20couleur.jpg" alt="Logo FSE" title="Logo REGION"
+                style="height:10vh"></a> <a href="https://www.normandie.fr/"><img
+                src="img/logo_r.normandie-portrait-cmjn.jpg" alt="Logo FSE" title="Logo FSE"
                 style="height:10vh"></a></td>
           <td style="width: 50%; text-align: right;">
             <h1><a href="https://calda2019.github.io/Savoirs-Numeriques-Greta/">SAVOIRS
@@ -36,14 +30,15 @@
           <td class="menu_text"> <a href="https://pix.fr/">PIX</a></td>
           <td rowspan="15" style="width:2%"><br>
           </td>
-          <td rowspan="15" style="vertical-align: top; background-color: white;">Bienvenue
-            sur le site de formation Savoirs Numériques.<br>
+          <td rowspan="15" style="vertical-align: top; background-color: white;">
+            <h3>Bienvenue sur le site de formation Savoirs Numériques.</h3>
             <br>
             Vous trouverez ici le contenu et les supports de formation
-            accessibles à la fois en centre de formation mais aussi de chez vous
-            ou en EPN.<br><br>
-            Pour accéder à un des chapitres de la formation, cliquez sur le titre du chapitre situé à gauche de cette page.
-          </td>
+            accessibles à la fois en <b>centre de formation </b>mais aussi de
+            <b>chez vous</b> ou en <b>EPN</b>.<br>
+            <br>
+            Pour accéder à un des chapitres de la formation, <b>cliquez </b>sur
+            le titre du chapitre situé à <b>gauche </b>de cette page. </td>
         </tr>
         <tr>
           <td class="menu_text">
