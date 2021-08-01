@@ -1,74 +1,99 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <link rel="stylesheet" href="css/exos.css">
-    <style>
-</style> </head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Accueil</title>
+  </head>
   <body>
-    <div id="main-container">
-      <div class="main-content-block">
-        <h1>Liste des exercices</h1>
-        <h2>Les clics</h2>
-        <p>Pour s'exercer au clic, double clic et clic droit : <a href="01_Clics.html">cliquez
-            ici</a></p>
-        <img src="img/mouse-click.png"> <img src="img/mouse-dblclick.png"> <img
+    <table style="width: 100%; " border="0">
+      <tbody>
+        <tr style="height: 10vh; ">
+          <td style="width: 50%; text-align: left;"><a href="https://greta.ac-normandie.fr/greta/greta-du-calvados/"><img
 
-          src="img/mouse-rightclick.png"> </div>
-      <div class="main-content-block">
-        <h2>Le glissé déposer</h2>
-        <p>Pour s'exercer au glisser déposé : <a href="02_glissedepose.html">cliquez
-            ici</a></p>
-      </div>
-      <div class="main-content-block">
-        <h2>Texte et souris</h2>
-        <p>Placer le curseur, sélectionner du texte : <a href="03_texteselection.html">cliquez
-            ici</a></p>
-      </div>
-      <div class="main-content-block">
-        <h2>Edition simple</h2>
-        <p>Saisir du texte, des majuscules, sélection et modification de style :
-          <a href="04_Edition_simple.html">cliquer ici</a></p>
-      </div>
-      <div class="main-content-block">
-        <h2>Edition caractères</h2>
-        <p>Saisir du texte avec de la ponctuation et des caractères compliqués :
-          <a href="05_Edition_caractères.html">cliquer ici</a></p>
-      </div>
-      <div class="main-content-block">
-        <h2>Barre d'espace et ponctuation</h2>
-        <p>trouver les caractères de ponctuation : <a href="06_ponctuation.html">cliquez
-            ici</a></p>
-      </div>
-      <div class="main-content-block">
-        <h2>Touches de raccourcis</h2>
-        <p>Utiliser des raccourcis clavier et faire de la mise en page : <a href="07_shortcuts.html">cliquez
-            ici</a></p>
-      </div>
-      <div class="main-content-block">
-        <h2>Tabulation</h2>
-        <p>La touche TAB : <a href="08_tab.html">cliquez ici</a></p>
-      </div>
-      <div class="main-content-block">
-        <h2>Accents</h2>
-        <p>Quelques accents difficiles à faire : <a href="09_accents.html">cliquer
-            ici</a></p>
-      </div>
-      <div class="main-content-block">
-        <h2>Suppression</h2>
-        <p>Suppressions et retours en arrière : <a href="10_suppr.html">cliquer
-            ici</a></p>
-      </div>
-      <div class="main-content-block">
-        <h2>Déplacements</h2>
-        <p>Les touches de déplacement et les sélections : <a href="11_moves.html">cliquer
-            ici</a></p>
-      </div>
-      <div class="main-content-block">
-        <h2>Copié collé</h2>
-        <p>Copier, déplacer du texte : <a href="12_copiercoller.html">cliquer
-            ici</a></p>
-      </div>
-    </div>
+                src="img/logo_greta_normandie.svg" alt="Logo GRETA" title="Logo GRETA"
+
+                style="height:10vh"></a> <a href="http://www.fse.gouv.fr/"><img
+
+                src="img/3-Logo%20UE%20FSE%20couleur.jpg" alt="Logo FSE" title="Logo REGION"
+
+                style="height:10vh"></a> <a href="https://www.normandie.fr/"><img
+
+                src="img/logo_r.normandie-portrait-cmjn.jpg" alt="Logo FSE" title="Logo FSE"
+
+                style="height:10vh"></a></td>
+          <td style="width: 50%; text-align: right;">
+            <h1><a href="https://calda2019.github.io/Savoirs-Numeriques-Greta/">SAVOIRS
+                NUMERIQUES</a></h1>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <hr width="100%" align="CENTER">
+    <table style="width: 100%; ">
+      <tbody>
+        <tr style=" ">
+          <td style="text-align: left; vertical-align: top; background-color: white; width: 5%">
+            <b><a href="https://pix.fr/">PIX</a> </b></td>
+          <b> </b>
+          <td style="text-align: left; vertical-align: top; background-color: white; width: 13.5%;"><a
+
+              href="S1_Accueil.html"><b> S1. Débuter avec le
+                numérique </b></a></td>
+          <b> </b>
+          <td style="text-align: left; vertical-align: top; background-color: white; width: 13.5%;"><b>
+              S4. Communiquer par email </b></td>
+          <b> </b>
+          <td style="text-align: left; vertical-align: top; background-color: white; width: 13.5%;"><b>
+              S7. Création de documents textuels </b></td>
+          <b> </b>
+          <td style="text-align: left; vertical-align: top; background-color: white; width: 13.5%;"><b>
+              S8. Protéger les équipements </b></td>
+          <b> </b>
+          <td style="text-align: left; vertical-align: top; background-color: white; width: 13.5%;"><b>
+              S10. Résoudre des problèmes techniques </b></td>
+          <b> </b>
+          <td style="text-align: left; vertical-align: top; background-color: white; width: 13.5%;"><b>
+              S11. Outils de recherche d’emploi </b></td>
+          <b> </b>
+          <td style="text-align: left; vertical-align: top; background-color: white; width: 13.5%;"><b>
+              S13. Achat en ligne </b></td>
+          <b> </b></tr>
+        <b> </b>
+        <tr style=" ">
+          <td><b><br>
+            </b></td>
+          <td style="text-align: left; vertical-align: top; background-color: white; width: 13.5%;"><b>
+              S2. Naviguer et Rechercher sur Internet </b></td>
+          <td style="text-align: left; vertical-align: top; background-color: white; width: 13.5%;"><b>
+              S5. Partager et publier </b></td>
+          <td><b><br>
+            </b></td>
+          <td style="text-align: left; vertical-align: top; background-color: white; width: 13.5%;"><b>
+              S9. Protéger les données personnelles et la vie privée </b></td>
+          <td><b><br>
+            </b></td>
+          <td style="text-align: left; vertical-align: top; background-color: white; width: 13.5%;"><b>
+              S12. Gérer son espace personnel CPF </b></td>
+          <td style="text-align: left; vertical-align: top; background-color: white; width: 13.5%;"><b>
+              S14. Service public </b></td>
+        </tr>
+        <b> </b>
+        <tr style=" ">
+          <b> </b>
+          <td><b><br>
+            </b></td>
+          <b> </b>
+          <td style="text-align: left; vertical-align: top; background-color: white; width: 13.5%;"><b>
+              S3. Gérer ses données sur ordinateur </b></td>
+          <b> </b>
+          <td style="text-align: left; vertical-align: top; background-color: white; width: 13.5%;"><b>
+              S6. Outils de collaboration Google </b></td>
+          <b> </b>
+          <td><br>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <hr width="100%" align="CENTER">
   </body>
 </html>
