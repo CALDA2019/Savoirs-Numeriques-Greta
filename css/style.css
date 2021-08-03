@@ -1,9 +1,11 @@
 .bouton_precedent{
-   position : absolute;   
+   position : absolute;
+margin-top:0%
+text-align: left;
 }
 
 .image_droite{
-margin-top:10%; 
+margin-top:70px; 
 margin-right:10%x; 
 height:50vh;
 }
@@ -12,6 +14,11 @@ position : absolute;
 margin-top:0%
 text-align: right;
 
+}
+
+.sous_titre{
+font-size: 18pt;
+font-weight:bold; 
 }
 
 .corps_contenu{
