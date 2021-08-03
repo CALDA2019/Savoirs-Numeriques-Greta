@@ -2,4 +2,10 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/dtru5625/public_html/
-    - /bin/cp -R * $DEPLOYPATH
+    - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R html $DEPLOYPATH
+    - /bin/cp -R img $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
+    - /bin/cp -R pdf $DEPLOYPATH
+    - /bin/cp -R tinymce $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
