@@ -29,19 +29,16 @@
         </tr>
       </tbody>
     </table>
-    <hr width="100%" align="CENTER"> 
+    <hr width="100%" align="CENTER">
     <table border="0">
       <tbody>
         <tr>
           <td class="menu_text"> <a href="../../index.html">Accueil</a></td>
           <td rowspan="15" style="width:2%"><br>
           </td>
-          <td rowspan="15" class="corps_contenu">
-            <button onclick="window.location.href = 'S1.1_P2.html';"
+          <td rowspan="15" class="corps_contenu_sans_images"> <button onclick="window.location.href = 'S1.1_P2.html';"
 
-      class="bouton_precedent"> Suivant </button> <button onclick="window.location.href = 'S1.1_P2.html';"
-
-      class="bouton_suivant"> Précédent </button>
+              class="bouton_suivant">Précédent </button>
             <h3> S1.1 Prendre en main un ordinateur</h3>
             <h4>Objectifs</h4>
             <ul>
@@ -117,6 +114,5 @@
     <hr width="100%" align="left">
     <div style="text-align:center"> Copyright 2021 - Tous droits réservés -
       GRETA Normandie </div>
-    
   </body>
 </html>
