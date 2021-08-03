@@ -1,11 +1,14 @@
 .bouton_precedent{
    position : absolute;   
 }
-
+.image_droite{
+margin-top:10%; 
+margin-right:10%; 
+}
 .bouton_suivant{
-   position : absolute; 
+position : absolute; 
 margin-top:0%
-margin-right:2%
+text-align: right;
 
 }
 
@@ -13,11 +16,14 @@ margin-right:2%
 font-size: 14pt;
 line-height: 1.5;
 vertical-align: top;
+width:41%
 }
 .corps_contenu_droite{
 position : absolute; 
-margin-right:-20%
+margin-right:5%;
+text-align: right;
 vertical-align: top;
+width:41%
 }
   
 .menu_text{
