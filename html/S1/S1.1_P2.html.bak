@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <link rel="stylesheet" href="../../css/style.css">
-    <title>Accueil</title>
+    <title>S1.1 Prendre en main un ordinateur</title>
   </head>
   <body>
     <table style="width: 100%; " border="0">
@@ -38,10 +38,7 @@
           </td>
           <td rowspan="15" class="corps_contenu"> <button onclick="window.location.href = 'S1.1_P1.html';"
 
-              class="bouton_precedent"> Suivant </button> <button onclick="window.location.href = 'S1.1_P2.html';"
-
-              class="bouton_suivant"> Précédent </button>
-            
+              class="bouton_precedent"> Précédent </button>
             <h3> S1.1 Prendre en main un ordinateur</h3>
             <h4>Présentation générale d’un ordinateur</h4>
             <p>Un ordinateur de bureau c’est:</p>
@@ -51,10 +48,11 @@
               <li>Un clavier</li>
               <li>Une souris</li>
             </ul>
-            
           </td>
-          <td rowspan="15" style="width:40%"><img style="postion:top; width:35vw"  src="../../img/S1/001.png" alt="" title="001_Ordinateur">
-          </td>
+          <td rowspan="15" class="corps_contenu_droite"> <button onclick="window.location.href = 'S1.1_P3.html';">
+              Suivant </button><br> <img style="width:35vw"
+
+              src="../../img/S1/001.png" alt="" title="001_Ordinateur"> </td>
         </tr>
         <tr>
           <td class="menu_text"> <a href="S1.1_P1.html">S1.1 Prendre en main un

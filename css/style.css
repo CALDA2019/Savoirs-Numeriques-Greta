@@ -3,13 +3,18 @@
 }
 
 .bouton_suivant{
-   position : absolute;
-   right: 5%;
+   position : absolute; 
+margin-top:0%
+   margin-right: -50%;
 }
 
 .corps_contenu{
 font-size: 14pt;
 line-height: 1.5;
+vertical-align: top;
+}
+.corps_contenu_droite{
+text-align: right; 
 vertical-align: top;
 }
   
