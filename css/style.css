@@ -1,9 +1,11 @@
 .bouton_precedent{
    position : absolute;   
 }
+
 .image_droite{
 margin-top:10%; 
-margin-right:10%; 
+margin-right:10%x; 
+height:50vh;
 }
 .bouton_suivant{
 position : absolute; 
