@@ -41,7 +41,7 @@
               class="bouton_precedent"> Suivant </button> <button onclick="window.location.href = 'S1.1_P2.html';"
 
               class="bouton_suivant"> Précédent </button>
-            <img style="position : absolute; right: 5%; margin-top:10%; width:35vw"  src="../../img/S1/001.png" alt="" title="001_Ordinateur">
+            
             <h3> S1.1 Prendre en main un ordinateur</h3>
             <h4>Présentation générale d’un ordinateur</h4>
             <p>Un ordinateur de bureau c’est:</p>
@@ -52,6 +52,8 @@
               <li>Une souris</li>
             </ul>
             
+          </td>
+          <td rowspan="15" style="width:40%"><img style="postion:top;width:35vw"  src="../../img/S1/001.png" alt="" title="001_Ordinateur">
           </td>
         </tr>
         <tr>
