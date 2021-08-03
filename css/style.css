@@ -5,7 +5,8 @@
 .bouton_suivant{
    position : absolute; 
 margin-top:0%
-   margin-right: -50%;
+margin-right:2%
+
 }
 
 .corps_contenu{
@@ -14,7 +15,8 @@ line-height: 1.5;
 vertical-align: top;
 }
 .corps_contenu_droite{
-text-align: right; 
+position : absolute; 
+margin-right:-20%
 vertical-align: top;
 }
   

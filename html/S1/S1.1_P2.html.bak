@@ -50,7 +50,7 @@
             </ul>
           </td>
           <td rowspan="15" class="corps_contenu_droite"> <button onclick="window.location.href = 'S1.1_P3.html';">
-              Suivant </button><br> <img style="width:35vw"
+              Suivant </button><br> <img style="margin-top:10%; width:35vw"
 
               src="../../img/S1/001.png" alt="" title="001_Ordinateur"> </td>
         </tr>
