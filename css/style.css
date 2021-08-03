@@ -1,3 +1,12 @@
+.bouton_precedent{
+   position : absolute;   
+}
+
+.bouton_suivant{
+   position : absolute;
+   right: 5%;
+}
+
 .corps_contenu{
 font-size: 14pt;
 line-height: 1.5;
