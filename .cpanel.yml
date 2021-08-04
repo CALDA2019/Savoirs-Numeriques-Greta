@@ -2,10 +2,10 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/dtru5625/public_html/
-    - /bin/cp -R css /home/dtru5625/sitesavnum
-    - /bin/cp -R html /home/dtru5625/sitesavnum
-    - /bin/cp -R img /home/dtru5625/sitesavnum
-    - /bin/cp -R js /home/dtru5625/sitesavnum
-    - /bin/cp -R pdf /home/dtru5625/sitesavnum
-    - /bin/cp -R tinymce /home/dtru5625/sitesavnum
-    - /bin/cp index.html /home/dtru5625/sitesavnum
+    - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R html $DEPLOYPATH
+    - /bin/cp -R img $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
+    - /bin/cp -R pdf $DEPLOYPATH
+    - /bin/cp -R tinymce $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
