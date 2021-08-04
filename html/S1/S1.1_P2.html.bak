@@ -9,18 +9,12 @@
     <table style="width: 100%; " border="0">
       <tbody>
         <tr style="height: 10vh; ">
-          <td style="width: 50%; text-align: left;"><a href="https://greta.ac-normandie.fr/greta/greta-du-calvados/"><img
-
-                src="../../img/logo_greta_normandie.svg" alt="Logo GRETA" title="Logo GRETA"
-
-                style="height:10vh"></a> <a href="http://www.fse.gouv.fr/"><img
-
-                src="../../img/3-Logo%20UE%20FSE%20couleur.jpg" alt="Logo FSE" title="Logo REGION"
-
-                style="height:10vh"></a> <a href="https://www.normandie.fr/"><img
-
-                src="../../img/logo_r.normandie-portrait-cmjn.jpg" alt="Logo FSE"
-
+          <td style="width: 50%; text-align: left;"><a href="https://greta.ac-normandie.fr/greta/greta-du-calvados/"><img
+                src="../../img/logo_greta_normandie.svg" alt="Logo GRETA" title="Logo GRETA"
+                style="height:10vh"></a> <a href="http://www.fse.gouv.fr/"><img
+                src="../../img/3-Logo%20UE%20FSE%20couleur.jpg" alt="Logo FSE" title="Logo REGION"
+                style="height:10vh"></a> <a href="https://www.normandie.fr/"><img
+                src="../../img/logo_r.normandie-portrait-cmjn.jpg" alt="Logo FSE"
                 title="Logo FSE" style="height:10vh"></a></td>
           <td style="width: 50%; text-align: right;">
             <h1><a href="https://calda2019.github.io/Savoirs-Numeriques-Greta/">SAVOIRS
@@ -36,22 +30,21 @@
           <td class="menu_text"> <a href="../../index.html">Accueil</a></td>
           <td rowspan="15" style="width:2%"><br>
           </td>
-          <td class="corps_contenu"> <button onclick="window.location.href = 'S1.1_P1.html';"
-
-              class="bouton_precedent"> Précédent </button> </td>
-          <td class="corps_contenu_droite"> <button onclick="window.location.href = 'S1.1_P3.html';">
+          <td class="bouton_precedent"><button onclick="window.location.href = 'S1.1_P1.html';">
+              Précédent </button> </td>
+          <td class="bouton_suivant"> <button onclick="window.location.href = 'S1.1_P3.html';">
               Suivant </button> </td>
         </tr>
         <tr>
           <td class="menu_text"> <a href="S1.1_P1.html">S1.1 Prendre en main un
               ordinateur</a></td>
-          <td colspan="2" class="sous_titre"> S1.1 Prendre en main un ordinateur
+          <td colspan="2" class="sous_titre">S1.1 Prendre en main un ordinateur
           </td>
         </tr>
         <tr>
           <td class="menu_text"><a href="S1.2_P1.html">S1.2 Ouverture d’une
               session Windows</a> </td>
-          <td class="corps_contenu" rowspan="13">
+          <td rowspan="13" class="corps_contenu">
             <h4>Présentation générale d’un ordinateur</h4>
             <p>Un ordinateur de bureau c’est:</p>
             <ul>
@@ -60,9 +53,10 @@
               <li>Un clavier</li>
               <li>Une souris</li>
             </ul>
+            <ul>
+            </ul>
           </td>
-          <td rowspan="13" class="corps_contenu_droite"><img class="image_droite"
-
+          <td rowspan="13" class="corps_contenu_droite"><img class="image_droite"
               src="../../img/S1/001.png" alt="" title="001_Ordinateur"> </td>
         </tr>
         <tr>

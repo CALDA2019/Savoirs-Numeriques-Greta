@@ -44,15 +44,20 @@
         <tr>
           <td class="menu_text"><a href="S1.2_P1.html">S1.2 Ouverture d’une
               session Windows</a> </td>
-          <td rowspan="13" colspan="2" class="corps_contenu_1col">
-            <h4>Contexte </h4>
-            Aujourd’hui, l’outil numérique est devenu très présent dans notre
-            vie quotidienne.<br>
-            Pour effectuer certaine tâche que cela soit au travail ou à la
-            maison.<br>
-            Le but de cette partie est de permettre au stagiaire d’apprendre à
-            utiliser l’ordinateur pas à pas jusqu’à en maîtriser les
-            bases. </td>
+          <td rowspan="13" class="corps_contenu">
+            <h4>Présentation générale d’un ordinateur</h4>
+            <p>Un ordinateur de bureau c’est:</p>
+            <ul>
+              <li>Une tour (unité centrale)</li>
+              <li>Un écran</li>
+              <li>Un clavier</li>
+              <li>Une souris</li>
+            </ul>
+            <ul>
+            </ul>
+          </td>
+          <td rowspan="13"> <br>
+          </td>
         </tr>
         <tr>
           <td class="menu_text"><a href="S1.3_P1.html">S1.3 Connaître et
