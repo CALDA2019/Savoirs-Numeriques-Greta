@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <link rel="stylesheet" href="../../css/style.css">
-    <title>S1.1 Prendre en main un ordinateur</title>
+    <title>S1.2 Ouverture d’une session Windows</title>
   </head>
   <body>
     <table style="width: 100%; " border="0">
@@ -44,20 +44,23 @@
         <tr>
           <td class="menu_text"> <a href="S1.1_P1.html">S1.1 Prendre en main un
               ordinateur</a></td>
-          <td colspan="2" class="sous_titre">S1.2 Ouverture d’une
-              session Windows</td>
+          <td colspan="2" class="sous_titre">S1.2 Ouverture d’une session
+            Windows</td>
         </tr>
         <tr>
           <td class="menu_text"><a href="S1.2_P1.html">S1.2 Ouverture d’une
               session Windows</a> </td>
           <td rowspan="13" colspan="2" class="corps_contenu_1col">
-            <h4>Contexte </h4>
-            Aujourd’hui, l’outil numérique est devenu très présent dans notre
-            vie quotidienne.<br>
-            Pour effectuer certaine tâche que cela soit au travail ou à la
-            maison.<br>
-            Le but de cette partie est de permettre au stagiaire d’apprendre à
-            utiliser l’ordinateur pas à pas jusqu’à en maîtriser les bases. </td>
+            <h4>Exercices</h4>
+            <ul>
+              <li> Démarrez votre ordinateur, puis connectez-vous sur votre
+                session utilisateur avec vos identifiants fournis par le
+                formateur. </li>
+              <li>Après l’ouverture de la session Windows, déconnectez-vous puis
+                reconnectez-vous une seconde fois. </li>
+              <li>Eteignez l’ordinateur puis rallumez le. </li>
+            </ul>
+          </td>
         </tr>
         <tr>
           <td class="menu_text"><a href="S1.3_P1.html">S1.3 Connaître et

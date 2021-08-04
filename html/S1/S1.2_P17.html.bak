@@ -36,9 +36,9 @@
           <td class="menu_text"> <a href="../../index.html">Accueil</a></td>
           <td rowspan="15" style="width:2%"><br>
           </td>
-          <td class="bouton_precedent"><button onclick="window.location.href = 'S1.2_P15.html';">
+          <td class="bouton_precedent"><button onclick="window.location.href = 'S1.2_P16.html';">
               Précédent </button> </td>
-          <td class="bouton_suivant"> <button onclick="window.location.href = 'S1.2_P17.html';">
+          <td class="bouton_suivant"> <button onclick="window.location.href = 'S1.2_P18.html';">
               Suivant </button> </td>
         </tr>
         <tr>
@@ -52,16 +52,13 @@
               session Windows</a> </td>
           <td rowspan="13" class="corps_contenu">
             <h4>Fermer sa session</h4>
-            Pour fermer sa session sans éteindre l’ordinateur <br>
-            <ul>
-              <li>Cliquez gauche sur l’icône en bas à gauche de l’écran</li>
-              <li>Cliquez gauche sur l’icône gris et rond</li>
-              <li>Cliquez gauche sur <b>Se déconnecter</b></li>
-            </ul>
+            Après un temps d’attente, vous reviendrez sur l’écran de
+            verrouillage 
+            
           </td>
           <td rowspan="13" class="corps_contenu_droite"><img class="image_droite"
 
-              src="../../img/S1/026.gif" alt="" title="001_Ordinateur"> </td>
+              src="../../img/S1/027.png" alt="" title="001_Ordinateur"> </td>
         </tr>
         <tr>
           <td class="menu_text"><a href="S1.3_P1.html">S1.3 Connaître et

@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <link rel="stylesheet" href="../../css/style.css">
-    <title>S1.2 Ouverture d’une session Windows</title>
+    <title>S1.1 Prendre en main un ordinateur</title>
   </head>
   <body>
     <table style="width: 100%; " border="0">
@@ -30,9 +30,9 @@
           <td class="menu_text"> <a href="../../index.html">Accueil</a></td>
           <td rowspan="15" style="width:2%"><br>
           </td>
-          <td class="bouton_precedent"><button onclick="window.location.href = 'S1.2_P11.html';">
+          <td class="bouton_precedent"><button onclick="window.location.href = 'S1.2_P18.html';">
               Précédent </button> </td>
-          <td class="bouton_suivant"> <button onclick="window.location.href = 'S1.2_P13.html';">
+          <td class="bouton_suivant"> <button onclick="window.location.href = 'S1.2_P20.html';">
               Suivant </button> </td>
         </tr>
         <tr>
@@ -45,14 +45,18 @@
           <td class="menu_text"><a href="S1.2_P1.html">S1.2 Ouverture d’une
               session Windows</a> </td>
           <td rowspan="13" class="corps_contenu">
-            <h4>Ouvrir sa session</h4>
+            <h4>Eteindre son ordinateur</h4>
+            A la fin d’une séance de formation, il faudra éteindre l’ordinateur
+            et l’écran<br>
+            Voici la méthode: <br>
             <ul>
-              <li>Entrez au clavier le mot de passe provisoire en respectant
-                bien les <b>majuscules </b>et les <b>chiffres</b></li>
+              <li>Cliquez gauche sur l’icône en bas à gauche de l’écran</li>
+              <li>Cliquez sur <b>Marche/Arrêt</b></li>
+              <li>Cliquez sur <b>Arrêter</b></li>
             </ul>
           </td>
           <td rowspan="13" class="corps_contenu_droite"><img class="image_droite"
-              src="../../img/S1/023.png" alt="" title="001_Ordinateur"> </td>
+              src="../../img/S1/028.gif" alt="" title="001_Ordinateur"> </td>
         </tr>
         <tr>
           <td class="menu_text"><a href="S1.3_P1.html">S1.3 Connaître et
