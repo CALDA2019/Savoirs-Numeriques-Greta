@@ -36,9 +36,9 @@
           <td class="menu_text"> <a href="../../index.html">Accueil</a></td>
           <td rowspan="15" style="width:2%"><br>
           </td>
-          <td class="bouton_precedent"><button onclick="window.location.href = 'S1.1_P1.html';">
+          <td class="bouton_precedent"><button onclick="window.location.href = 'S1.1_P14.html';">
               Précédent </button> </td>
-          <td class="bouton_suivant"> <button onclick="window.location.href = 'S1.1_P3.html';">
+          <td class="bouton_suivant"> <button onclick="window.location.href = 'S1.1_P16.html';">
               Suivant </button> </td>
         </tr>
         <tr>
@@ -52,14 +52,15 @@
               session Windows</a> </td>
           <td rowspan="13" class="corps_contenu">
             <h4>Présentation générale de la tour</h4>
-            A l’avant de la tour, nous avons différents <b>boutons </b>et
-            <b>ports de branchement</b>.<br>
-            <ul>
-            </ul>
+            Port de souris et clavier<br>
+            <br>
+            Ce sont les anciens branchements de la <b>souris </b>et du <b>clavier</b>.<br>
+            Aujourd’hui le port USB est de plus en plus favoriser.<br>
+            
           </td>
-          <td rowspan="13" class="corps_contenu_droite">&gt;<img class="image_droite"
+          <td rowspan="13" class="corps_contenu_droite"><img class="image_droite"
 
-              src="../../img/S1/001.png" alt="" title="001_Ordinateur"> </td>
+              src="../../img/S1/012.png" alt="" title="001_Ordinateur"> </td>
         </tr>
         <tr>
           <td class="menu_text"><a href="S1.3_P1.html">S1.3 Connaître et

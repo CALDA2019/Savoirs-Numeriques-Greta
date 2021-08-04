@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="../../css/style.css">
+    <title>S1.1 Prendre en main un ordinateur</title>
+  </head>
+  <body>
+    <table style="width: 100%; " border="0">
+      <tbody>
+        <tr style="height: 10vh; ">
+          <td style="width: 50%; text-align: left;"><a href="https://greta.ac-normandie.fr/greta/greta-du-calvados/"><img
+                src="../../img/logo_greta_normandie.svg" alt="Logo GRETA" title="Logo GRETA"
+                style="height:10vh"></a> <a href="http://www.fse.gouv.fr/"><img
+                src="../../img/3-Logo%20UE%20FSE%20couleur.jpg" alt="Logo FSE" title="Logo REGION"
+                style="height:10vh"></a> <a href="https://www.normandie.fr/"><img
+                src="../../img/logo_r.normandie-portrait-cmjn.jpg" alt="Logo FSE"
+                title="Logo FSE" style="height:10vh"></a></td>
+          <td style="width: 50%; text-align: right;">
+            <h1><a href="https://calda2019.github.io/Savoirs-Numeriques-Greta/">SAVOIRS
+                NUMERIQUES</a></h1>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <hr width="100%" align="CENTER">
+    <table border="0">
+      <tbody>
+        <tr>
+          <td class="menu_text"> <a href="../../index.html">Accueil</a></td>
+          <td rowspan="15" style="width:2%"><br>
+          </td>
+          <td class="bouton_precedent"><button onclick="window.location.href = 'S1.1_P7.html';">
+              Précédent </button> </td>
+          <td class="bouton_suivant"> <button onclick="window.location.href = 'S1.1_P8.html';">
+              Suivant </button> </td>
+        </tr>
+        <tr>
+          <td class="menu_text"> <a href="S1.1_P1.html">S1.1 Prendre en main un
+              ordinateur</a></td>
+          <td colspan="2" class="sous_titre">S1.1 Prendre en main un ordinateur
+          </td>
+        </tr>
+        <tr>
+          <td class="menu_text"><a href="S1.2_P1.html">S1.2 Ouverture d’une
+              session Windows</a> </td>
+          <td rowspan="13" class="corps_contenu">
+            <h4>Présentation générale de la tour</h4>
+            Le<b> bouton de redémarrage forcé</b>&nbsp; RESET:<br>
+            <br>
+            Lorsque l’ordinateur est <b>bloqué </b>ou <b>ne répond</b> plus
+            au clavier ou à la souris<br>
+            on appuie dessus pour forcer le redémarrage<br>
+            <br>
+            <ul>
+            </ul>
+          </td>
+          <td rowspan="13" class="corps_contenu_droite"><img class="image_droite"
+              src="../../img/S1/005.png" alt="" title="001_Ordinateur"> </td>
+        </tr>
+        <tr>
+          <td class="menu_text"><a href="S1.3_P1.html">S1.3 Connaître et
+              manipuler le clavier et la souris de l’ordinateur</a></td>
+        </tr>
+        <tr>
+          <td class="menu_text"><a href="S1.4_P1.html">S1.4 Se repérer sur un
+              écran, identifier les icônes</a></td>
+        </tr>
+        <tr>
+          <td class="menu_text"><a href="S1.5_P1.html"> S1.5 Ouvrir et fermer
+              une application, utiliser le système de fenêtre</a><br>
+          </td>
+        </tr>
+        <tr>
+          <td class="menu_text"><a href="S1.6_P1.html">S1.6 Couper/Copier/Coller
+              des données</a></td>
+        </tr>
+        <tr>
+          <td class="menu_text"><a href="S1.7_P1.html">S1.7 Travailler avec
+              plusieurs applications</a></td>
+        </tr>
+        <tr>
+          <td class="menu_text"><a href="S1.8_P1.html">S.8 Identifier les
+              différentes applications et logiciels installés sur son matériel</a></td>
+        </tr>
+        <tr>
+          <td class="menu_text"><a href="S1.9_P1.html">S1.9 Se connecter à un
+              réseau Internet à partir de son matériel</a></td>
+        </tr>
+        <tr>
+          <td class="menu_text"><br>
+          </td>
+        </tr>
+        <tr>
+          <td class="menu_text"> <br>
+          </td>
+        </tr>
+        <tr>
+          <td class="menu_text"> <br>
+          </td>
+        </tr>
+        <tr>
+          <td class="menu_text"><br>
+          </td>
+        </tr>
+        <tr>
+          <td class="menu_text"> <br>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <hr width="100%" align="left">
+    <div style="text-align:center"> Copyright 2021 - Tous droits réservés -
+      GRETA Normandie </div>
+  </body>
+</html>

@@ -36,9 +36,9 @@
           <td class="menu_text"> <a href="../../index.html">Accueil</a></td>
           <td rowspan="15" style="width:2%"><br>
           </td>
-          <td class="bouton_precedent"><button onclick="window.location.href = 'S1.1_P1.html';">
+          <td class="bouton_precedent"><button onclick="window.location.href = 'S1.1_P13.html';">
               Précédent </button> </td>
-          <td class="bouton_suivant"> <button onclick="window.location.href = 'S1.1_P3.html';">
+          <td class="bouton_suivant"> <button onclick="window.location.href = 'S1.1_P15.html';">
               Suivant </button> </td>
         </tr>
         <tr>
@@ -52,14 +52,26 @@
               session Windows</a> </td>
           <td rowspan="13" class="corps_contenu">
             <h4>Présentation générale de la tour</h4>
-            A l’avant de la tour, nous avons différents <b>boutons </b>et
-            <b>ports de branchement</b>.<br>
+            La <b>boite d’alimentation</b><br>
+            <br>
+            La boite d’alimentation munie d’une <b>prise noire à trois branches</b>
+            <br>
+            ainsi qu’un ventilateur. Ce ventilateur est indispensable car il
+            évite <br>
+            que l’ordinateur ne surchauffe et ne s’arrête brusquement.<br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
             <ul>
             </ul>
           </td>
-          <td rowspan="13" class="corps_contenu_droite">&gt;<img class="image_droite"
+          <td rowspan="13" class="corps_contenu_droite"><img class="image_droite"
 
-              src="../../img/S1/001.png" alt="" title="001_Ordinateur"> </td>
+              src="../../img/S1/011.png" alt="" title="001_Ordinateur"> </td>
         </tr>
         <tr>
           <td class="menu_text"><a href="S1.3_P1.html">S1.3 Connaître et
