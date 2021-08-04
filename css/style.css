@@ -1,5 +1,6 @@
 .bouton_precedent{
 text-align: left;
+width:41.5%;
 }
 
 .image_droite{
@@ -8,6 +9,7 @@ height:50vh;
 }
 .bouton_suivant{
 text-align: right;
+width:41.5%;
 }
 
 .sous_titre{

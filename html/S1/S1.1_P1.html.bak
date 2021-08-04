@@ -36,7 +36,7 @@
           <td class="menu_text"> <a href="../../index.html">Accueil</a></td>
           <td rowspan="15" style="width:2%"><br>
           </td>
-          <td class="bouton_precedent"> </td>
+          <td class="bouton_precedent"></td>
           <td class="bouton_suivant"> <button onclick="window.location.href = 'S1.1_P3.html';">
               Suivant </button> </td>
         </tr>
@@ -49,15 +49,13 @@
         <tr>
           <td class="menu_text"><a href="S1.2_P1.html">S1.2 Ouverture d’une
               session Windows</a> </td>
-          <td rowspan="13" class="corps_contenu">
+          <td rowspan="13" colspan="2" class="corps_contenu_1col">
             <h4>Objectifs</h4>
             <ul>
               <li>Connaître les différentes parties d’un ordinateur</li>
               <li>Comprendre à quoi servent les différentes parties d'un
                 ordinateur</li>
             </ul>
-          </td>
-          <td rowspan="13"> <br>
           </td>
         </tr>
         <tr>
