@@ -51,17 +51,25 @@
           <td class="menu_text"><a href="S1.2_P1.html">S1.2 Ouverture d’une
               session Windows</a> </td>
           <td rowspan="13" class="corps_contenu">
-            <h4>Présentation de la souris : le clic gauche</h4>
+            <h4>Présentation de la souris : le clic-gauche</h4>
             Le clic gauche permet de faire une action sur l'ordinateur :<br>
             <ul>
-              <li>lancer un logiciel</li>
-              <li>ouvrir un dossier/un fichier</li>
+              <li>sélectionner un fichier ou dossier</li>
               <li>ouvrir une page internet</li>
+            </ul>
+            C'est sur cette touche de la souris que se fera la plupart des
+            actions sur ordinateur.<br>
+            <ul>
+              <li>Pour faire un clic-gauche, posez l'index sur le bouton et
+                faites une simple pression dessus.</li>
             </ul>
           </td>
           <td rowspan="13" class="corps_contenu_droite"><img class="image_droite"
 
-              src="../../img/S1/030.png" alt="" title="001_Ordinateur"> </td>
+              src="../../img/S1/030.png" alt="" title="001_Ordinateur">
+          <img class="image_droite"
+
+              src="../../img/S1/033.png" alt="" title="001_Ordinateur"></td>
         </tr>
         <tr>
           <td class="menu_text"><a href="S1.3_P1.html">S1.3 Connaître et
