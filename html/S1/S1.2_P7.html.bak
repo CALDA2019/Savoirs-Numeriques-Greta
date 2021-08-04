@@ -36,26 +36,29 @@
           <td class="menu_text"> <a href="../../index.html">Accueil</a></td>
           <td rowspan="15" style="width:2%"><br>
           </td>
-          <td class="bouton_precedent"><br>
-          </td>
-          <td class="bouton_suivant"> <button onclick="window.location.href = 'S1.2_P2.html';">
+          <td class="bouton_precedent"><button onclick="window.location.href = 'S1.2_P6.html';">
+              Précédent </button> </td>
+          <td class="bouton_suivant"> <button onclick="window.location.href = 'S1.2_P8.html';">
               Suivant </button> </td>
         </tr>
         <tr>
           <td class="menu_text"> <a href="S1.1_P1.html">S1.1 Prendre en main un
               ordinateur</a></td>
-          <td colspan="2" class="sous_titre">S1.2 Ouverture d’une
-              session Windows</td>
+          <td colspan="2" class="sous_titre">S1.2 Ouverture d’une session
+            Windows</td>
         </tr>
         <tr>
           <td class="menu_text"><a href="S1.2_P1.html">S1.2 Ouverture d’une
               session Windows</a> </td>
-          <td rowspan="13" colspan="2" class="corps_contenu_1col">
-            <h4>Objectifs</h4>
+          <td rowspan="13" class="corps_contenu">
+            <h4>Allumer son ordinateur</h4>
             <ul>
-              <li>Savoir ouvrir et fermer sa session sur Windows 10</li>
+              <li>Appuyez sur la touche <b>Echap </b>du clavier</li>
             </ul>
-          </td>
+            Il se trouve en haut à gauche du clavier</td>
+          <td rowspan="13" class="corps_contenu_droite"><img class="image_droite"
+
+              src="../../img/S1/019.png" alt="" title="001_Ordinateur"> </td>
         </tr>
         <tr>
           <td class="menu_text"><a href="S1.3_P1.html">S1.3 Connaître et

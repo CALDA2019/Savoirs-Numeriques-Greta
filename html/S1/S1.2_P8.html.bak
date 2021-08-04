@@ -30,28 +30,29 @@
           <td class="menu_text"> <a href="../../index.html">Accueil</a></td>
           <td rowspan="15" style="width:2%"><br>
           </td>
-          <td class="bouton_precedent"><br>
-          </td>
-          <td class="bouton_suivant"> <button onclick="window.location.href = 'S1.1_P2.html';">
+          <td class="bouton_precedent"><button onclick="window.location.href = 'S1.2_P6.html';">
+              Précédent </button> </td>
+          <td class="bouton_suivant"> <button onclick="window.location.href = 'S1.2_P8.html';">
               Suivant </button> </td>
         </tr>
         <tr>
-          <td class="menu_text"> <a href="S1.1_P1.html">S1.2 Prendre en main un
+          <td class="menu_text"> <a href="S1.1_P1.html">S1.1 Prendre en main un
               ordinateur</a></td>
-          <td colspan="2" class="sous_titre">S1.1 Prendre en main un ordinateur
-          </td>
+          <td colspan="2" class="sous_titre">S1.2 Ouverture d’une session
+            Windows</td>
         </tr>
         <tr>
           <td class="menu_text"><a href="S1.2_P1.html">S1.2 Ouverture d’une
               session Windows</a> </td>
-          <td rowspan="13" colspan="2" class="corps_contenu_1col">
-            <h4>Objectifs</h4>
+          <td rowspan="13" class="corps_contenu">
+            <h4>Ouvrir sa session</h4>
             <ul>
-              <li>Connaître les différentes parties d’un ordinateur</li>
-              <li>Comprendre à quoi servent les différentes parties d'un
-                ordinateur</li>
+              <li> Si vous ne voyez pas votre nom à l’écran, cliquez gauche sur
+                <b>Autre utilisateur</b></li>
             </ul>
           </td>
+          <td rowspan="13" class="corps_contenu_droite"><img class="image_droite"
+              src="../../img/S1/020.png" alt="" title="001_Ordinateur"> </td>
         </tr>
         <tr>
           <td class="menu_text"><a href="S1.3_P1.html">S1.3 Connaître et
