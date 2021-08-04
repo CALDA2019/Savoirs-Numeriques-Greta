@@ -29,6 +29,13 @@ vertical-align: top;
 width:41%
 }
 
+.corps_contenu_1col{
+font-size: 14pt;
+line-height: 1.5;
+vertical-align: top;
+width:83%
+}
+
 .corps_contenu_droite{
 position : absolute; 
 margin-right:5%;
