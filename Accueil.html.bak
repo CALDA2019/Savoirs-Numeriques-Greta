@@ -81,7 +81,7 @@
       </div>
     </div>
     <script> 
-/*
+
           $(function(){
           var i=0;
           if(var=0){
@@ -89,7 +89,7 @@
           }
           else{i=1}
       
-    }); */
+    }); 
 
 $(function() {
     $("#S1").click(function() {
