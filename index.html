@@ -44,11 +44,9 @@
     }); 
       
 
-$(document).ready( function() {
-    $("#S1").on("click", function() {
-        $(".menu_div_cadre").load("html/S1/menu_S1.html");
-    });
-});
+function load_menu_S1() {
+     document.getElementById(".menu_div_cadre").innerHTML='<object type="text/html" data="html/S1/menu_S1.html" ></object>';
+};
 
     
     </script>
