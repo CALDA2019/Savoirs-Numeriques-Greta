@@ -45,13 +45,7 @@
     }); 
       
 
-$(function() {
-    $("#S1").click(function() {
-      $(".menu_div_cadre").html('');
-     
 
-    });
-});
 
     
     </script>
