@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  </head>
+  <body>
+    <div class="menu_div_element"> <a href="../../index.html">Accueil</a> </div>
+
+    <div class="menu_div_element"> <a href="S1.1_P1.html">S1.1 Prendre en main un
+              ordinateur</a> </div>
+    <div class="menu_div_element"> <a href="S1.2_P1.html">S1.2 Ouverture d’une
+              session Windows</a> </div>
+    <div class="menu_div_element"> <a href="S1.3_P1.html">S1.3 Connaître et
+              manipuler le clavier et la souris de l’ordinateur</a> </div>
+
+    <div class="menu_div_element"> <a href="S1.4_P1.html">S1.4 Se repérer sur un
+              écran, identifier les icônes</a> </div>
+    <div class="menu_div_element"> <a href="S1.5_P1.html"> S1.5 Ouvrir et fermer
+              une application, utiliser le système de fenêtre</a> </div>
+    <div class="menu_div_element"> <a href="S1.6_P1.html">S1.6 Couper/Copier/Coller
+              des données</a> </div>
+
+    <div class="menu_div_element"> <a href="S1.7_P1.html">S1.7 Travailler avec
+              plusieurs applications</a> </div>
+
+    <div class="menu_div_element"> <a href="S1.8_P1.html">S.8 Identifier les
+              différentes applications et logiciels installés sur son matériel</a> </div>
+    <div class="menu_div_element"> <a href="S1.9_P1.html">S1.9 Se connecter à un
+              réseau Internet à partir de son matériel</a> </div>
+    <hr width="100%" align="left">
+   
+  </body>
+</html>
+
+
