@@ -47,7 +47,7 @@
 
 $(function() {
     $("#S1").click(function() {
-      $(".menu_div_cadre")..html('');
+      $(".menu_div_cadre").html('');
      
 
     });
