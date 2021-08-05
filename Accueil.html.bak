@@ -25,47 +25,7 @@
     </div>
     <div class="corps_site_div">
       <div class="menu_div_cadre">
-        <div class="menu_div_element"> <a href="https://pix.fr/">PIX</a> </div>
-        <hr width="100%" align="left">
-        <div class="menu_div_element" ><div id="S1">S1. Débuter avec le
-          numérique 
-          
-          </div>
-          
         </div>
-        <div class="menu_div_element"> <a href="http://gretasavoirsnumeriques.fr/html/S2/S2_Accueil.html">S2.
-            Naviguer et Rechercher sur Internet</a> </div>
-        <div class="menu_div_element"> <a href="http://gretasavoirsnumeriques.fr/html/S3/S3_Accueil.html">S3.
-            Gérer ses données</a> </div>
-        <hr width="100%" align="left">
-        <div class="menu_div_element"> <a href="http://gretasavoirsnumeriques.fr/html/S4/S4_Accueil.html">S4.
-            Communiquer par email</a> </div>
-        <div class="menu_div_element"> <a href="http://gretasavoirsnumeriques.fr/html/S5/S5_Accueil.html">S5.
-            Partager et publier</a> </div>
-        <div class="menu_div_element"> <a href="http://gretasavoirsnumeriques.fr/html/S6/S6_Accueil.html">S6.
-            Outils de collaboration Google</a> </div>
-        <hr width="100%" align="left">
-        <div class="menu_div_element"> <a href="http://gretasavoirsnumeriques.fr/html/S7/S7_Accueil.html">S7.
-            Création de documents textuels</a> </div>
-        <hr width="100%" align="left">
-        <div class="menu_div_element"> <a href="http://gretasavoirsnumeriques.fr/html/S8/S8_Accueil.html">S8.
-            Protéger les équipements</a> </div>
-        <div class="menu_div_element"> <a href="http://gretasavoirsnumeriques.fr/html/S9/S9_Accueil.html">S9.
-            Protéger les données personnelles et la vie privée</a> </div>
-        <hr width="100%" align="left">
-        <div class="menu_div_element"> <a href="http://gretasavoirsnumeriques.fr/html/S10/S10_Accueil.html">S10.
-            Résoudre des problèmes techniques</a> </div>
-        <hr width="100%" align="left">
-        <div class="menu_div_element"> <a href="http://gretasavoirsnumeriques.fr/html/S11/S11_Accueil.html">S11.
-            Outils de recherche d'emploi</a> </div>
-        <div class="menu_div_element"> <a href="http://gretasavoirsnumeriques.fr/html/S12/S12_Accueil.html">S12.
-            Gérer son espace personnel CPF</a> </div>
-        <hr width="100%" align="left">
-        <div class="menu_div_element"> <a href="http://gretasavoirsnumeriques.fr/html/S13/S13_Accueil.html">S13.
-            Achat en ligne</a> </div>
-        <div class="menu_div_element"> <a href="http://gretasavoirsnumeriques.fr/html/S14/S14_Accueil.html">S14.
-            Service public</a> </div>
-        <hr width="100%" align="left"> </div>
       <div class="contenu_cours_div_cadre">
         <h3>Bienvenue sur le site de formation Savoirs Numériques.</h3>
         <br>
@@ -81,26 +41,28 @@
       </div>
     </div>
     <script> 
+	var i=0;
+$(function(){
 
-          $(function(){
-          var i=0;
-          if(i=0){
-          $(".menu_div_cadre").load("menu_accueil.html"); 
-          }
-          else{i=1}
-      
-    }); 
 
-$(function() {
+  $(".menu_div_cadre").load("html/S1/menu_S1.html");
+
+}); 
+ /*     
+$(function(){
+
     $("#S1").click(function() {
-      $(".menu_div_cadre").empty();
-      $(".menu_div_cadre").load("html/S1/menu_S1.html");
-     
 
+      
+      if(i==1){
+  /*$(".menu_div_cadre").empty();*/
+  $(".menu_div_cadre").load("html/S1/menu_S1.html");
+}
     });
-});
+});*/
 
     
     </script>
+    
   </body>
 </html>

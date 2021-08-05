@@ -1,19 +1,31 @@
 <!DOCTYPE html>
 <!-- saved from url=(0033)http://gretasavoirsnumeriques.fr/ -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <link rel="stylesheet" href="./Accueil_files/style.css">
     <title>Accueil</title>
-    <script src="./Accueil_files/jquery.js.téléchargement"></script>
+    <script src="./Accueil_files/jquery.js.t%C3%A9l%C3%A9chargement"></script>
   </head>
   <body>
     <div class="titre_div">
-      <div class="logos_div_gauche"> <a href="https://greta.ac-normandie.fr/greta/greta-du-calvados/"><img src="./Accueil_files/logo_greta_normandie.svg" alt="Logo GRETA" title="Logo GRETA" class="logos_img"></a> <a href="http://www.fse.gouv.fr/"><img src="./Accueil_files/3-Logo UE FSE couleur.jpg" alt="Logo FSE" title="Logo REGION" class="logos_img"></a> <a href="https://www.normandie.fr/"><img src="./Accueil_files/logo_r.normandie-portrait-cmjn.jpg" alt="Logo FSE" title="Logo FSE" class="logos_img"></a> </div>
+      <div class="logos_div_gauche"> <a href="https://greta.ac-normandie.fr/greta/greta-du-calvados/"><img
+
+            src="./Accueil_files/logo_greta_normandie.svg" alt="Logo GRETA" title="Logo GRETA"
+
+            class="logos_img"></a> <a href="http://www.fse.gouv.fr/"><img src="./Accueil_files/3-Logo%20UE%20FSE%20couleur.jpg"
+
+            alt="Logo FSE" title="Logo REGION" class="logos_img"></a> <a href="https://www.normandie.fr/"><img
+
+            src="./Accueil_files/logo_r.normandie-portrait-cmjn.jpg" alt="Logo FSE"
+
+            title="Logo FSE" class="logos_img"></a> </div>
       <div class="titre_div_droite"> <a href="https://gretasavoirsnumeriques.fr/">SAVOIRS
           NUMERIQUES</a> </div>
     </div>
     <div class="corps_site_div">
-      <div class="menu_div_cadre"> </div>
+      <div class="menu_div_cadre">
+        </div>
       <div class="contenu_cours_div_cadre">
         <h3>Bienvenue sur le site de formation Savoirs Numériques.</h3>
         <br>
@@ -29,28 +41,28 @@
       </div>
     </div>
     <script> 
+	var i=0;
+$(function(){
 
-          $(function(){
-          var i=0;
-          if(i=0){
-          $(".menu_div_cadre").load("menu_accueil.html"); 
-             i=1;
-          }
-          
-      
-    }); 
 
-$(function() {
+  $(".menu_div_cadre").load("menu_accueil");
+
+}); 
+ /*     
+$(function(){
+
     $("#S1").click(function() {
-      $(".menu_div_cadre").empty();
-      $(".menu_div_cadre").load("html/S1/menu_S1.html");
 
+      
+      if(i==1){
+  /*$(".menu_div_cadre").empty();*/
+  $(".menu_div_cadre").load("html/S1/menu_S1.html");
+}
     });
-});
+});*/
 
     
     </script>
     
-  
-
-</body></html>
+  </body>
+</html>
