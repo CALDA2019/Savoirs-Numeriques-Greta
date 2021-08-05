@@ -39,8 +39,8 @@
     <hr width="100%" align="left">
     <div class="menu_div_element"> <div id="S13">S13.
         Achat en ligne</div> </div>
-    <div class="menu_div_element"> <a href="html/S14/S14_Accueil.html">S14.
-        Service public</a> </div>
+    <div class="menu_div_element"> <div id="S14">S14.
+        Service public</div> </div>
     <hr width="100%" align="left">
     
   </body>
