@@ -38,17 +38,43 @@ text-align: right;
     max-height: 75%;
 } 
 
+
+/**********************************************************************************************************/
+/*Mise en page du div contenant le menu et le contenu du cours*/
+
+.corps_site_div{
+position:absolute;
+width:100%;
+}
+
 /**********************************************************************************************************/
 
 /*Style du menu à gauche de la page*/
 
-.menu_text{
-    font-size: 2.5vh;
+.menu_div_cadre{
+float:left;
+width:15%;
+}
+
+.menu_div_element{
+    font-size: 100%;
     font-weight:bold;  
     text-align: left; 
     vertical-align: top;
-    width:15%;
-  }
+padding-top:1px;
+padding-bottom:1px;
+}
+
+/**********************************************************************************************************/
+
+/*Mise en page du div contenant le cours*/
+
+.contenu_cours_div_cadre{
+margin-left:18%;
+width:82%;
+vertical-align: top;
+}
+
 
 /**********************************************************************************************************/
 
@@ -120,6 +146,16 @@ vertical-align: top;
 width:41%
 }
   
+/**********************************************************************************************************/
 
+/*Mise en page du div contenant le pied de page*/
+
+.pied_page_div_cadre{
+clear:both;
+width:100%;
+text-align:center;
+}
+
+/**********************************************************************************************************/
 
    
