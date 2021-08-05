@@ -25,7 +25,57 @@
     </div>
     <div class="corps_site_div">
       <div class="menu_div_cadre">
+        <div class="menu_div_element"> <a href="https://pix.fr/">PIX</a> </div>
+        <hr width="100%" align="left">
+        <div class="menu_div_element">
+          <div id="S1">S1. Débuter avec le numérique </div>
         </div>
+        <div class="menu_div_element">
+          <div id="S2">S2. Naviguer et Rechercher sur Internet</div>
+        </div>
+        <div class="menu_div_element">
+          <div id="S3">S3. Gérer ses données</div>
+        </div>
+        <hr width="100%" align="left">
+        <div class="menu_div_element">
+          <div id="S4">S4. Communiquer par email</div>
+        </div>
+        <div class="menu_div_element">
+          <div id="S5">S5. Partager et publier</div>
+        </div>
+        <div class="menu_div_element">
+          <div id="S6">S6. Outils de collaboration Google</div>
+        </div>
+        <hr width="100%" align="left">
+        <div class="menu_div_element">
+          <div id="S7">S7. Création de documents textuels</div>
+        </div>
+        <hr width="100%" align="left">
+        <div class="menu_div_element">
+          <div id="S8">S8. Protéger les équipements</div>
+        </div>
+        <div class="menu_div_element">
+          <div id="S9">S9. Protéger les données personnelles et la vie privée</div>
+        </div>
+        <hr width="100%" align="left">
+        <div class="menu_div_element">
+          <div id="S10">S10. Résoudre des problèmes techniques</div>
+        </div>
+        <hr width="100%" align="left">
+        <div class="menu_div_element">
+          <div id="S11">S11. Outils de recherche d'emploi</div>
+        </div>
+        <div class="menu_div_element">
+          <div id="S12">S12. Gérer son espace personnel CPF</div>
+        </div>
+        <hr width="100%" align="left">
+        <div class="menu_div_element">
+          <div id="S13">S13. Achat en ligne</div>
+        </div>
+        <div class="menu_div_element">
+          <div id="S14">S14. Service public</div>
+        </div>
+        <hr width="100%" align="left"> </div>
       <div class="contenu_cours_div_cadre">
         <h3>Bienvenue sur le site de formation Savoirs Numériques.</h3>
         <br>
@@ -43,26 +93,21 @@
     <script> 
 	var i=0;
 $(function(){
-
-
-  $(".menu_div_cadre").load("menu_accueil");
-
-}); 
- /*     
-$(function(){
-
-    $("#S1").click(function() {
-
-      
-      if(i==1){
-  /*$(".menu_div_cadre").empty();*/
-  $(".menu_div_cadre").load("html/S1/menu_S1.html");
+if(i==0){
+  $(".menu_div_cadre").load("http://gretasavoirsnumeriques.fr/menu_accueil.html");
+  i=1;
 }
-    });
-});*/
+}); 
+    
+$(function() {
+  $("#S1").click(function() {
+    if(i==1){
+      $(".menu_div_cadre").empty();
+  $(".menu_div_cadre").load("http://gretasavoirsnumeriques.fr/html/S1/menu_S1.html");
+    }
 
-    
+    });
+});   
     </script>
-    
   </body>
 </html>
