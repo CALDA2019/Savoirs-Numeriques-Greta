@@ -81,11 +81,15 @@
       </div>
     </div>
     <script> 
-
+/*
           $(function(){
-      $(".menu_div_cadre").load("menu_accueil.html"); 
-    }); 
+          var i=0;
+          if(var=0){
+          $(".menu_div_cadre").load("menu_accueil.html"); 
+          }
+          else{i=1}
       
+    }); */
 
 $(function() {
     $("#S1").click(function() {
