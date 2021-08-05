@@ -53,7 +53,7 @@ $(function() {
     $("#S1").click(function() {
       if(i==1){
   $(".menu_div_cadre").empty();
-      $(".menu_div_cadre").load("html/S1/menu_S1.html");
+  $(".menu_div_cadre").load("html/S1/menu_S1.html");
 }
     });
 });
