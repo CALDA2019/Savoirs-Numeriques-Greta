@@ -49,8 +49,11 @@ if(i==0){
     
 $(function() {
   $("#S1").click(function() {
-  $(".menu_div_cadre").empty();
+    if(i==1){
+      $(".menu_div_cadre").empty();
   $(".menu_div_cadre").load("html/S1/menu_S1.html");
+    }
+
     });
 });   
     </script>
