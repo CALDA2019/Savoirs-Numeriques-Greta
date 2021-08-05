@@ -1,3 +1,44 @@
+/*Mise en page des logos et du titre du site*/
+
+a{
+text-decoration:none; 
+color: black;      
+}
+
+.titre_div{
+border-bottom-width:2px;
+   border-bottom-color: black;
+   border-bottom-style: solid;
+width:100%;
+height:10vw;
+display: table;
+}
+
+.logos_div_gauche
+{
+float:left;
+width:50%;
+text-align: left;
+height:10vw;
+}
+
+.titre_div_droite
+{
+font-size:2vw;
+font-weight: bold;
+margin-left:50%;
+left:50%;
+width:50%;
+text-align: right;
+}
+
+.logos_img
+{
+    max-height: 75%;
+} 
+
+/*Style des boutons Précédent et Suivant*/
+
 .bouton_precedent{
 text-align: left;
 width:41.5%;
@@ -63,39 +104,4 @@ width:41%
     width:15%;
   }
 
-a{
-text-decoration:none; 
-color: black;      
-}
-
-.titre_div{
-border-bottom-width:2px;
-   border-bottom-color: black;
-   border-bottom-style: solid;
-width:100%;
-height:10vw;
-display: table;
-}
-
-.logos_div_gauche
-{
-float:left;
-width:50%;
-text-align: left;
-height:10vw;
-}
-
-.titre_div_droite
-{
-font-size:2vw;
-font-weight: bold;
-margin-left:50%;
-left:50%;
-width:50%;
-text-align: right;
-}
-
-.logos_img
-{
-    max-height: 75%;
-}    
+   
