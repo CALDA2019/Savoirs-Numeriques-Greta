@@ -19,11 +19,9 @@
 
             class="logos_img"></a> </div>
       <div class="titre_div_droite">
-        <h1><a href="https://gretasavoirsnumeriques.fr">SAVOIRS NUMERIQUES</a></h1>
+        <a href="https://gretasavoirsnumeriques.fr">SAVOIRS NUMERIQUES</a>
       </div>
     </div>
-
-    
     <table border="0">
       <tbody>
         <tr>
@@ -126,5 +124,6 @@
     <hr width="100%" align="left">
     <div style="text-align:center"> Copyright 2021 - Tous droits réservés -
       GRETA Normandie </div>
+    
   </body>
 </html>
