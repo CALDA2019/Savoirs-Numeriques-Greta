@@ -6,7 +6,7 @@
     <title>Accueil</title>
     <script src="js/jquery.js"></script>
   </head>
-  <body>
+  <body> 
     <div class="titre_div">
       <div class="logos_div_gauche"> <a href="https://greta.ac-normandie.fr/greta/greta-du-calvados/"><img
 
@@ -49,14 +49,10 @@ if(i==0){
     
 $(function() {
   $("#S1").click(function() {
-{
-      $(".menu_div_cadre").empty();
- 
-    }
-
+      $(".menu_div_cadre").empty();  
     });
-});   
-    </script>
+});
     
+    </script>
   </body>
 </html>
