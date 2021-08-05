@@ -41,7 +41,13 @@
     <script> 
     $(function(){
       $(".menu_div_cadre").load("menu_accueil.html"); 
-    });  
+    }); 
+      
+      $(document).ready( function() {
+    $("#S1").on("click", function() {
+        $(".menu_div_cadre").load("html/S1/menu_S1.html");
+    });
+});
 
     
     </script>
