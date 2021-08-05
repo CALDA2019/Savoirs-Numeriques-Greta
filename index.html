@@ -39,14 +39,19 @@
       </div>
     </div>
     <script> 
-    $(function(){
+
+          $(function(){
       $(".menu_div_cadre").load("menu_accueil.html"); 
     }); 
       
 
-function load_menu_S1() {
-     document.getElementById(".menu_div_cadre").innerHTML='<object type="text/html" data="html/S1/menu_S1.html" ></object>';
-};
+$(function() {
+    $("#S1").click(function() {
+      $( ".menu_div_cadre" ).empty();
+      $(".menu_div_cadre").load("html/S1/menu_S1.html"); 
+
+    });
+});
 
     
     </script>

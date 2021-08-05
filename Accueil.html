@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://gretasavoirsnumeriques.fr/ -->
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Accueil</title>
+    <script src="js/jquery.js"></script>
+  </head>
+  <body>
+    <div class="titre_div">
+      <div class="logos_div_gauche"> <a href="https://greta.ac-normandie.fr/greta/greta-du-calvados/"><img
+
+            src="./Accueil_files/logo_greta_normandie.svg" alt="Logo GRETA" title="Logo GRETA"
+
+            class="logos_img"></a> <a href="http://www.fse.gouv.fr/"><img src="./Accueil_files/3-Logo%20UE%20FSE%20couleur.jpg"
+
+            alt="Logo FSE" title="Logo REGION" class="logos_img"></a> <a href="https://www.normandie.fr/"><img
+
+            src="./Accueil_files/logo_r.normandie-portrait-cmjn.jpg" alt="Logo FSE"
+
+            title="Logo FSE" class="logos_img"></a> </div>
+      <div class="titre_div_droite"> <a href="https://gretasavoirsnumeriques.fr/">SAVOIRS
+          NUMERIQUES</a> </div>
+    </div>
+    <div class="corps_site_div">
+      <div class="menu_div_cadre">
+        <div class="menu_div_element"> <a href="https://pix.fr/">PIX</a> </div>
+        <hr width="100%" align="left">
+        <div class="menu_div_element" id="S1"> <a>S1.
+            Débuter avec le numérique</a> </div>
+        <div class="menu_div_element"> <a href="http://gretasavoirsnumeriques.fr/html/S2/S2_Accueil.html">S2.
+            Naviguer et Rechercher sur Internet</a> </div>
+        <div class="menu_div_element"> <a href="http://gretasavoirsnumeriques.fr/html/S3/S3_Accueil.html">S3.
+            Gérer ses données</a> </div>
+        <hr width="100%" align="left">
+        <div class="menu_div_element"> <a href="http://gretasavoirsnumeriques.fr/html/S4/S4_Accueil.html">S4.
+            Communiquer par email</a> </div>
+        <div class="menu_div_element"> <a href="http://gretasavoirsnumeriques.fr/html/S5/S5_Accueil.html">S5.
+            Partager et publier</a> </div>
+        <div class="menu_div_element"> <a href="http://gretasavoirsnumeriques.fr/html/S6/S6_Accueil.html">S6.
+            Outils de collaboration Google</a> </div>
+        <hr width="100%" align="left">
+        <div class="menu_div_element"> <a href="http://gretasavoirsnumeriques.fr/html/S7/S7_Accueil.html">S7.
+            Création de documents textuels</a> </div>
+        <hr width="100%" align="left">
+        <div class="menu_div_element"> <a href="http://gretasavoirsnumeriques.fr/html/S8/S8_Accueil.html">S8.
+            Protéger les équipements</a> </div>
+        <div class="menu_div_element"> <a href="http://gretasavoirsnumeriques.fr/html/S9/S9_Accueil.html">S9.
+            Protéger les données personnelles et la vie privée</a> </div>
+        <hr width="100%" align="left">
+        <div class="menu_div_element"> <a href="http://gretasavoirsnumeriques.fr/html/S10/S10_Accueil.html">S10.
+            Résoudre des problèmes techniques</a> </div>
+        <hr width="100%" align="left">
+        <div class="menu_div_element"> <a href="http://gretasavoirsnumeriques.fr/html/S11/S11_Accueil.html">S11.
+            Outils de recherche d'emploi</a> </div>
+        <div class="menu_div_element"> <a href="http://gretasavoirsnumeriques.fr/html/S12/S12_Accueil.html">S12.
+            Gérer son espace personnel CPF</a> </div>
+        <hr width="100%" align="left">
+        <div class="menu_div_element"> <a href="http://gretasavoirsnumeriques.fr/html/S13/S13_Accueil.html">S13.
+            Achat en ligne</a> </div>
+        <div class="menu_div_element"> <a href="http://gretasavoirsnumeriques.fr/html/S14/S14_Accueil.html">S14.
+            Service public</a> </div>
+        <hr width="100%" align="left"> </div>
+      <div class="contenu_cours_div_cadre">
+        <h3>Bienvenue sur le site de formation Savoirs Numériques.</h3>
+        <br>
+        Vous trouverez ici le contenu et les supports de formation accessibles à
+        la fois en <b>centre de formation </b>mais aussi de <b>chez vous</b>
+        ou en <b>EPN</b>.<br>
+        <br>
+        Pour accéder à un des chapitres de la formation, <b>cliquez </b>sur le
+        titre du chapitre situé à <b>gauche </b>de cette page.</div>
+      <div class="pied_page_div_cadre">
+        <hr width="100%" align="center">
+        <div> Copyright 2021 - Tous droits réservés - GRETA Normandie </div>
+      </div>
+    </div>
+    <script> 
+      
+    $(function(){
+      $(".menu_div_cadre").load("menu_accueil.html"); 
+    }); 
+      
+
+$(function() {
+    $("#S1").click(function() {
+      $( ".menu_div_cadre" ).empty();
+      $(".menu_div_cadre").load("html/S1/menu_S1.html"); 
+
+    });
+});
+    
+    </script>
+  </body>
+</html>

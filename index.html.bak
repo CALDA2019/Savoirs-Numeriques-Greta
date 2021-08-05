@@ -46,7 +46,7 @@
 
 function load_menu_S1() {
      document.getElementById(".menu_div_cadre").innerHTML='<object type="text/html" data="html/S1/menu_S1.html" ></object>';
-}
+};
 
     
     </script>
