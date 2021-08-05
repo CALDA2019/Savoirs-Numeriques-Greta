@@ -4,28 +4,28 @@
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   </head>
   <body>
-    <div class="menu_div_element"> <a id="S1_0">Accueil</a> </div>
+    <div class="menu_div_element"> <div id="S1_0">Accueil</div> </div>
 
-    <div class="menu_div_element"> <a id="S1_1">S1.1 Prendre en main un
-              ordinateur</a> </div>
-    <div class="menu_div_element"> <a id="S1_2">S1.2 Ouverture d’une
-              session Windows</a> </div>
-    <div class="menu_div_element"> <a id="S1_3">S1.3 Connaître et
-              manipuler le clavier et la souris de l’ordinateur</a> </div>
+    <div class="menu_div_element"> <div id="S1_1">S1.1 Prendre en main un
+              ordinateur</div> </div>
+    <div class="menu_div_element"> <div id="S1_2">S1.2 Ouverture d’une
+              session Windows</div> </div>
+    <div class="menu_div_element"> <div id="S1_3">S1.3 Connaître et
+              manipuler le clavier et la souris de l’ordinateur</div> </div>
 
-    <div class="menu_div_element"> <a id="S1_4">S1.4 Se repérer sur un
-              écran, identifier les icônes</a> </div>
-    <div class="menu_div_element"> <a id="S1_5"> S1.5 Ouvrir et fermer
-              une application, utiliser le système de fenêtre</a> </div>
-    <div class="menu_div_element"> <a id="S1_6">S1.6 Couper/Copier/Coller
-              des données</a> </div>
+    <div class="menu_div_element"> <div id="S1_4">S1.4 Se repérer sur un
+              écran, identifier les icônes</div> </div>
+    <div class="menu_div_element"> <div id="S1_5"> S1.5 Ouvrir et fermer
+              une application, utiliser le système de fenêtre</div> </div>
+    <div class="menu_div_element"> <div id="S1_6">S1.6 Couper/Copier/Coller
+              des données</div> </div>
 
-    <div class="menu_div_element"> <a id="S1_7">S1.7 Travailler avec
-              plusieurs applications</a> </div>
+    <div class="menu_div_element"> <div id="S1_7">S1.7 Travailler avec
+              plusieurs applications</div> </div>
 
     <div class="menu_div_element"> <a id="S1_8">S.8 Identifier les
               différentes applications et logiciels installés sur son matériel</a> </div>
-    <div class="menu_div_element"> <a id="S1_1">S1.9 Se connecter à un
+    <div class="menu_div_element"> <a id="S1_9">S1.9 Se connecter à un
               réseau Internet à partir de son matériel</a> </div>
     <hr width="100%" align="left">
    

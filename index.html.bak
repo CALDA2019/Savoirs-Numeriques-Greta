@@ -39,18 +39,24 @@
       </div>
     </div>
     <script> 
+	var i=0;
+$(function(){
 
-          $(function(){
-          var i=0;
-          if(i=0){
-          $(".menu_div_cadre").load("menu_accueil.html"); 
-             i=1;
-          }
-          else{i=1}
+$(".menu_div_cadre").load("menu_accueil.html");
+  if(i=0){
+i=1;
+}
+});
+
+          
       
-    }); 
+     
 
 $(function() {
+  if(i=1)
+  {
+  
+  }
     $("#S1").click(function() {
       $(".menu_div_cadre").empty();
       $(".menu_div_cadre").load("html/S1/menu_S1.html");
