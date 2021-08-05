@@ -42,10 +42,8 @@
 	var i=0;
 $(function(){
 
+$(".menu_div_cadre").load("menu_accueil.html");
 
-  if(i=0){$(".menu_div_cadre").load("menu_accueil.html");
-i=1;
-}
 });
 
           
