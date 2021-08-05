@@ -41,11 +41,10 @@
     <script> 
 	var i=0;
 $(function(){
-
+if(i==0){
   $(".menu_div_cadre").load("menu_accueil.html");
-
-
-
+}
+  else{i==1}
 }); 
     
 $(function() {
@@ -53,9 +52,7 @@ $(function() {
   $(".menu_div_cadre").empty();
   $(".menu_div_cadre").load("html/S1/menu_S1.html");
     });
-});
-
-    
+});   
     </script>
     
   </body>
