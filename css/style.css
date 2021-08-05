@@ -1,3 +1,4 @@
+/**********************************************************************************************************/
 /*Mise en page des logos et du titre du site*/
 
 a{
@@ -37,6 +38,20 @@ text-align: right;
     max-height: 75%;
 } 
 
+/**********************************************************************************************************/
+
+/*Style du menu à gauche de la page*/
+
+.menu_text{
+    font-size: 2.5vh;
+    font-weight:bold;  
+    text-align: left; 
+    vertical-align: top;
+    width:15%;
+  }
+
+/**********************************************************************************************************/
+
 /*Style des boutons Précédent et Suivant*/
 
 .bouton_precedent{
@@ -44,19 +59,28 @@ text-align: left;
 width:41.5%;
 }
 
-.image_droite{
-margin-right:20%; 
-height:100%;
-}
 .bouton_suivant{
 text-align: right;
 width:41.5%;
 }
 
+/**********************************************************************************************************/
+
+/*Style du sous-titre S1.1, S1.2 etc.*/
 .sous_titre{
 font-size: 18pt;
 font-weight:bold; 
 }
+
+/**********************************************************************************************************/
+
+.image_droite{
+margin-right:20%; 
+height:100%;
+}
+
+
+
 
 .corps_contenu_sans_images{
 font-size: 14pt;
@@ -96,12 +120,6 @@ vertical-align: top;
 width:41%
 }
   
-.menu_text{
-    font-size: 12pt;
-    font-weight:bold;  
-    text-align: left; 
-    vertical-align: top;
-    width:15%;
-  }
+
 
    
