@@ -35,6 +35,17 @@ $(function(){
     </div>
     <div class="corps_site_div">
       <div class="menu_div_cadre">        </div>
+      
+          <script> 
+$(function(){
+$("#S1").click(function() {      
+	$(".menu_div_cadre_act").empty();
+  $(".menu_div_cadre_act").load("html/S1/menu_S1.html");
+  
+  });
+})  
+    </script>
+      
       <div class="contenu_cours_div_cadre">
         <h3>Bienvenue sur le site de formation Savoirs Numériques.</h3>
         <br>
@@ -49,25 +60,14 @@ $(function(){
         <div> Copyright 2021 - Tous droits réservés - GRETA Normandie </div>
       </div>
     </div>
-    <script>       
-
-/*
-$(function(){
-  
-  $(".menu_div_cadre").load("menu_accueil.html");
-  $(".menu_div_cadre").toggleClass('menu_div_cadre menu_div_cadre_act');
-  
-  
-}); */
-
+    <script> 
 $(function(){
 $("#S1").click(function() {      
 	$(".menu_div_cadre_act").empty();
   $(".menu_div_cadre_act").load("html/S1/menu_S1.html");
   
   });
-})     
-    
+})  
     </script>
     
   </body>
