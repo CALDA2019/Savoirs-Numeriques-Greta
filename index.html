@@ -40,20 +40,17 @@
       </div>
     </div>
     <script> 
-var i=0;
+
 $(function(){
   
-  if(i==0){
+
   $(".menu_div_cadre").load("/menu_accueil.html");
-  i=1;  
-  }
-  else if(i==1)
-  { 
-    $("#S1").click(function() {      
-		$(".menu_div_cadre").empty();
-  	$(".menu_div_cadre").load("/html/S1/menu_S1.html");
-      });
-  }
+  
+  $("#S1").click(function() {      
+	$(".menu_div_cadre").empty();
+  $(".menu_div_cadre").load("/html/S1/menu_S1.html");
+  
+  });
 }); 
 
     
