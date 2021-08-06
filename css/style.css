@@ -60,9 +60,7 @@ width:15%;
 .menu_div_cadre_act{
 float:left;
 width:15%;
-  display: flex; /* contexte sur le parent */
-  flex-direction: column; /* direction d'affichage verticale */
-  justify-content: center; /* alignement vertical */
+
 }
 
 .menu_div_element{
