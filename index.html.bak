@@ -5,6 +5,17 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Accueil</title>
     <script src="js/jquery.js"></script>
+        <script>    
+
+$(function(){
+  
+  $(".menu_div_cadre").load("menu_accueil.html");
+  $(".menu_div_cadre").toggleClass('menu_div_cadre menu_div_cadre_act');
+  
+  
+}); 
+    
+    </script>
   </head>
   <body>
     <div class="titre_div">
@@ -40,7 +51,7 @@
     </div>
     <script> 
       
-      $(window).on('load', function() {
+$(window).on('load', function() {
   $(".menu_div_cadre").load("menu_accueil.html");
   $(".menu_div_cadre").toggleClass('menu_div_cadre menu_div_cadre_act');
 });
