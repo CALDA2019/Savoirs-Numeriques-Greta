@@ -24,7 +24,10 @@
           NUMERIQUES</a> </div>
     </div>
     <div class="corps_site_div">
-      <div class="menu_div_cadre"> </div>
+      <div class="menu_div_cadre"> 
+      
+      
+      </div>
 
       <div class="contenu_cours_div_cadre">
         <h3>Bienvenue sur le site de formation Savoirs Numériques.</h3>
@@ -43,18 +46,20 @@
     
   </body>
 </html>
-    <script>    
-
+    <script> 
 $(function(){
   
   $(".menu_div_cadre").load("menu_accueil.html", function() {
-  $("#S1").click(function() {      
-        $(".menu_div_cadre").empty();
-        $(".menu_div_cadre").load("html/S1/menu_S1.html");    		
+    
+    $('.menu_div_cadre').on('click', (event) => {
+    var idDemande = $(this).attr('id');
+    alert(idDemande);
+});
+});
+  //$("#S1").click(function() {      
+        //$(".menu_div_cadre").empty();
+        //$(".menu_div_cadre").load("html/S1/menu_S1.html");    		
         });
 	}); 
-});
-      
- 
-    
+});   
     </script>
