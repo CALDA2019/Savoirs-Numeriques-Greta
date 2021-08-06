@@ -34,75 +34,102 @@
             switch (section){
               case "S1":
                 $(".menu_div_cadre").empty();
-                $(".menu_div_cadre").load("html/S1/menu_S1.html", function(){
-                	$(".contenu_cours_div_cadre").load("html/S1/S1_Accueil.html");
+                $(".menu_div_cadre").load("html/"+section+"/menu_"+section+".html", function(){
+                	$(".contenu_cours_div_cadre").load("html/"+section+"/"+section+"_Accueil.html");
                 }
                 );
                 break;
 
               case "S2":
                 $(".menu_div_cadre").empty();
-                $(".menu_div_cadre").load("html/S2/menu_S2.html", function(){
-                	$(".contenu_cours_div_cadre").load("html/S2/S2_Accueil.html");
+                $(".menu_div_cadre").load("html/"+section+"/menu_"+section+".html", function(){
+                	$(".contenu_cours_div_cadre").load("html/"+section+"/"+section+"_Accueil.html");
                 }
                 );
                 break;
               case "S3":
                 $(".menu_div_cadre").empty();
-                $(".menu_div_cadre").load("html/S3/menu_S3.html", function(){
-                	$(".contenu_cours_div_cadre").load("html/S3/S3_Accueil.html");
+                $(".menu_div_cadre").load("html/"+section+"/menu_"+section+".html", function(){
+                	$(".contenu_cours_div_cadre").load("html/"+section+"/"+section+"_Accueil.html");
                 }
                 );
                 break;
               case "S4":
                 $(".menu_div_cadre").empty();
-                $(".menu_div_cadre").load("html/S4/menu_S4.html", function(){
-                	$(".contenu_cours_div_cadre").load("html/S4/S4_Accueil.html");
+                $(".menu_div_cadre").load("html/"+section+"/menu_"+section+".html", function(){
+                	$(".contenu_cours_div_cadre").load("html/"+section+"/"+section+"_Accueil.html");
                 }
                 );
                 break;
               case "S5":
                 $(".menu_div_cadre").empty();
                 $(".menu_div_cadre").load("html/"+section+"/menu_"+section+".html", function(){
-                	$(".contenu_cours_div_cadre").load("html/S1/S1_Accueil.html");
+                	$(".contenu_cours_div_cadre").load("html/"+section+"/"+section+"_Accueil.html");
                 }
                 );
                 break;
               case "S6":
                 $(".menu_div_cadre").empty();
-                $(".menu_div_cadre").load("html/S6/menu_S6.html");
+                $(".menu_div_cadre").load("html/"+section+"/menu_"+section+".html", function(){
+                	$(".contenu_cours_div_cadre").load("html/"+section+"/"+section+"_Accueil.html");
+                }
+                );
                 break;
               case "S7":
                 $(".menu_div_cadre").empty();
-                $(".menu_div_cadre").load("html/S7/menu_S7.html");
+                $(".menu_div_cadre").load("html/"+section+"/menu_"+section+".html", function(){
+                	$(".contenu_cours_div_cadre").load("html/"+section+"/"+section+"_Accueil.html");
+                }
+                );
                 break;
               case "S8":
                 $(".menu_div_cadre").empty();
-                $(".menu_div_cadre").load("html/S8/menu_S8.html");
+                $(".menu_div_cadre").load("html/"+section+"/menu_"+section+".html", function(){
+                	$(".contenu_cours_div_cadre").load("html/"+section+"/"+section+"_Accueil.html");
+                }
+                );
                 break;
               case "S9":
                 $(".menu_div_cadre").empty();
-                $(".menu_div_cadre").load("html/S9/menu_S9.html");
+                $(".menu_div_cadre").load("html/"+section+"/menu_"+section+".html", function(){
+                	$(".contenu_cours_div_cadre").load("html/"+section+"/"+section+"_Accueil.html");
+                }
+                );
                 break;
               case "S10":
                 $(".menu_div_cadre").empty();
-                $(".menu_div_cadre").load("html/S10/menu_S10.html");
+                $(".menu_div_cadre").load("html/"+section+"/menu_"+section+".html", function(){
+                	$(".contenu_cours_div_cadre").load("html/"+section+"/"+section+"_Accueil.html");
+                }
+                );
                 break;
               case "S11":
                 $(".menu_div_cadre").empty();
-                $(".menu_div_cadre").load("html/S10/menu_S10.html");
+                $(".menu_div_cadre").load("html/"+section+"/menu_"+section+".html", function(){
+                	$(".contenu_cours_div_cadre").load("html/"+section+"/"+section+"_Accueil.html");
+                }
+                );
                 break;
               case "S12":
                 $(".menu_div_cadre").empty();
-                $(".menu_div_cadre").load("html/S12/menu_S12.html");
+                $(".menu_div_cadre").load("html/"+section+"/menu_"+section+".html", function(){
+                	$(".contenu_cours_div_cadre").load("html/"+section+"/"+section+"_Accueil.html");
+                }
+                );
                 break;
               case "S13":
                 $(".menu_div_cadre").empty();
-                $(".menu_div_cadre").load("html/S13/menu_S13.html");
+                $(".menu_div_cadre").load("html/"+section+"/menu_"+section+".html", function(){
+                	$(".contenu_cours_div_cadre").load("html/"+section+"/"+section+"_Accueil.html");
+                }
+                );
                 break;
               case "S14":
                 $(".menu_div_cadre").empty();
-                $(".menu_div_cadre").load("html/S14/menu_S14.html");
+                $(".menu_div_cadre").load("html/"+section+"/menu_"+section+".html", function(){
+                	$(".contenu_cours_div_cadre").load("html/"+section+"/"+section+"_Accueil.html");
+                }
+                );
                 break;
              }   
   		
