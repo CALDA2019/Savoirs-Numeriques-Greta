@@ -101,7 +101,8 @@ width:41.5%;
 /*Style du sous-titre S1.1, S1.2 etc.*/
 .sous_titre{
 font-size: 18pt;
-font-weight:bold; 
+font-weight:bold;
+padding-top:10px;
 }
 
 /**********************************************************************************************************/
