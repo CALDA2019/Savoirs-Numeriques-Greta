@@ -65,9 +65,8 @@ width:15%;
 .menu_div_element{
     font-size: 100%;
     font-weight:bold;  
-    text-align: left; 
-display: table-cell;
-  vertical-align: middle;
+    text-align: left;
+line-height: 45px; 
 height: 45px;
 padding-top:3px;
 padding-bottom:3px;
