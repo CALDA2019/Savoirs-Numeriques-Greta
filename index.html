@@ -23,7 +23,31 @@
           NUMERIQUES</a> </div>
     </div>
     <div class="corps_site_div">
-      <div class="menu_div_cadre"> </div>
+      <div class="menu_div_cadre">
+      
+          <script> 
+$(function(){
+  
+  $(".menu_div_cadre").load("menu_accueil.html", function() {
+    
+    /***************************/
+    $("#S1").click(function() {      
+    $(".menu_div_cadre").empty();
+    $(".menu_div_cadre").load("html/S1/menu_S1.html");    		
+    });
+    
+    /***************************/
+
+  	});
+	});
+  //$("#S1").click(function() {      
+        //$(".menu_div_cadre").empty();
+        //$(".menu_div_cadre").load("html/S1/menu_S1.html");    		
+        //});
+});   
+    </script>
+      
+      </div>
       <div class="contenu_cours_div_cadre">
         <h3>Bienvenue sur le site de formation Savoirs Numériques.</h3>
         <br>
@@ -38,22 +62,6 @@
         <div> Copyright 2021 - Tous droits réservés - GRETA Normandie </div>
       </div>
     </div>
-    <script> 
-$(function(){
-  
-  $(".menu_div_cadre").load("menu_accueil.html", function() {
-    
-    $('.menu_div_element > a').on('click', (event) => {
-    var oLien  = event.currentTarget;
-    var idDemande = oLien.id;
-    alert(idDemande);
-		});
-	});
-  //$("#S1").click(function() {      
-        //$(".menu_div_cadre").empty();
-        //$(".menu_div_cadre").load("html/S1/menu_S1.html");    		
-        //});
-});   
-    </script>
+
   </body>
 </html>
