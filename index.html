@@ -34,27 +34,39 @@
             switch (section){
               case "S1":
                 $(".menu_div_cadre").empty();
-                $(".menu_div_cadre").load("html/S1/menu_S1.html", function(){
-                	$(".contenu_cours_div_cadre").load("html/S1/S1_Accueil.html");
+                $(".menu_div_cadre").load("html/"+section+"/menu_"+section+".html", function(){
+                	$(".contenu_cours_div_cadre").load("html/"+section+"/"+section+"_Accueil.html");
                 }
                 );
                 break;
 
               case "S2":
                 $(".menu_div_cadre").empty();
-                $(".menu_div_cadre").load("html/S2/menu_S2.html");
+                $(".menu_div_cadre").load("html/S2/menu_S2.html", function(){
+                	$(".contenu_cours_div_cadre").load("html/S2/S2_Accueil.html");
+                }
+                );
                 break;
               case "S3":
                 $(".menu_div_cadre").empty();
-                $(".menu_div_cadre").load("html/S3/menu_S3.html");
+                $(".menu_div_cadre").load("html/S3/menu_S3.html", function(){
+                	$(".contenu_cours_div_cadre").load("html/S3/S3_Accueil.html");
+                }
+                );
                 break;
               case "S4":
                 $(".menu_div_cadre").empty();
-                $(".menu_div_cadre").load("html/S4/menu_S4.html");
+                $(".menu_div_cadre").load("html/S4/menu_S4.html", function(){
+                	$(".contenu_cours_div_cadre").load("html/S4/S4_Accueil.html");
+                }
+                );
                 break;
               case "S5":
                 $(".menu_div_cadre").empty();
-                $(".menu_div_cadre").load("html/S5/menu_S5.html");
+                $(".menu_div_cadre").load("html/"+section+"/menu_"+section+".html", function(){
+                	$(".contenu_cours_div_cadre").load("html/"+section+"/"+section+"_Accueil.html");
+                }
+                );
                 break;
               case "S6":
                 $(".menu_div_cadre").empty();

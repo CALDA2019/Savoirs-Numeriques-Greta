@@ -7,7 +7,7 @@
   </head>
   <body>
     <div class="sous_titre">S1 - Débuter avec le numérique</div>
-    <div>
+    <div class="corps_contenu_1col">
       Dans cette partie, nous verrons les bases du maniement d'un ordinateur.<br>
     Cela comprend:<br>
     <ul>
