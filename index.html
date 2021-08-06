@@ -51,7 +51,7 @@ $(function(){
   
   $(".menu_div_cadre").load("menu_accueil.html", function() {
     
-    $('.menu_div_cadre').on('click', (event) => {
+    $('.menu_div_element').on('click', (event) => {
     var oLien  = event.currentTarget;
     var idDemande = oLien.id;
     alert(idDemande);
