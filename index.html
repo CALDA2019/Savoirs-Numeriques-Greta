@@ -39,19 +39,19 @@
         <div> Copyright 2021 - Tous droits réservés - GRETA Normandie </div>
       </div>
     </div>
-    <script> /*
+    <script> 
 var i=0;
 $(function(){
-  if(i==0){
+
   $(".menu_div_cadre").load("/menu_accueil.html");
-    i=1;
-  }
-}); */
+  return;
+
+}); 
  
 $(function(){
   $("#S1").click(function() {      
 		$(".menu_div_cadre").empty();
-  	$(".menu_div_cadre").load("/menu_accueil.html");
+  	$(".menu_div_cadre").load("/html/S1/menu_S1.html");
 	});
 }); 
 
