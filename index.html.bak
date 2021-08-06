@@ -40,12 +40,17 @@
       </div>
     </div>
     <script> 
-var i=0;
+
 $(function(){
-
+  var i=0;
+  if(i==0){
   $(".menu_div_cadre").load("/menu_accueil.html");
-  return;
-
+    
+  }
+  else
+  {
+  	i=1;
+  }
 }); 
  
 $(function(){
