@@ -56,13 +56,20 @@ float:left;
 width:15%;
 }
 
+/*Style du div intermédiaire pour l'actualisation du menu à gauche*/
+.menu_div_cadre_act{
+float:left;
+width:15%;
+}
+
 .menu_div_element{
     font-size: 100%;
     font-weight:bold;  
     text-align: left; 
-    vertical-align: top;
-padding-top:1px;
-padding-bottom:1px;
+    vertical-align: middle;
+height: 45px;
+padding-top:3px;
+padding-bottom:3px;
 }
 
 /**********************************************************************************************************/
@@ -95,7 +102,9 @@ width:41.5%;
 /*Style du sous-titre S1.1, S1.2 etc.*/
 .sous_titre{
 font-size: 18pt;
-font-weight:bold; 
+font-weight:bold;
+padding-top:10px;
+padding-bottom:10px;
 }
 
 /**********************************************************************************************************/

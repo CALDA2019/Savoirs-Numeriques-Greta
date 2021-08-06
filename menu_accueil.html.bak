@@ -31,17 +31,14 @@
     <div class="menu_div_element" id="S10">S10. Résoudre des problèmes techniques
     </div>
     <hr width="100%" align="left">
-    <div class="menu_div_element" id="S10">S11. Outils de recherche d'emploi
+    <div class="menu_div_element" id="S11">S11. Outils de recherche d'emploi
     </div>
-    <div class="menu_div_element">
-      <div id="S12">S12. Gérer son espace personnel CPF</div>
+ <div class="menu_div_element" id="S12">S12. Gérer son espace personnel CPF
     </div>
     <hr width="100%" align="left">
-    <div class="menu_div_element">
-      <div id="S13">S13. Achat en ligne</div>
+ <div class="menu_div_element" id="S13">S13. Achat en ligne
     </div>
-    <div class="menu_div_element">
-      <div id="S14">S14. Service public</div>
+ <div class="menu_div_element" id="S14">S14. Service public
     </div>
     <hr width="100%" align="left">
     
