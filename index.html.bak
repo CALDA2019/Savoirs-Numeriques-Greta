@@ -49,14 +49,15 @@ $(function(){
   
   $(".menu_div_cadre").load("menu_accueil.html", function() {
   $(".menu_div_cadre").toggleClass('menu_div_cadre menu_div_cadre_act');
+  $("#S1").click(function() {      
+        $(".menu_div_cadre_act").empty();
+        $(".menu_div_cadre_act").load("html/S1/menu_S1.html");
+        });
 	}); 
 });
       
 $(function(){
-      $("#S1").click(function() {      
-        $(".menu_div_cadre_act").empty();
-        $(".menu_div_cadre_act").load("html/S1/menu_S1.html");
-        });
-      }); 
+      
+}); 
     
     </script>
