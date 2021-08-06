@@ -24,7 +24,7 @@
     </div>
     <div class="corps_site_div">
       <div class="menu_div_cadre">
-      <script> 
+        <script> 
       $(function(){
 
         $(".menu_div_cadre").load("menu_accueil.html", function() {
@@ -34,7 +34,10 @@
             switch (section){
               case "S1":
                 $(".menu_div_cadre").empty();
-                $(".menu_div_cadre").load("html/S1/menu_S1.html");
+                $(".menu_div_cadre").load("html/S1/menu_S1.html", function(){
+                	$(".contenu_cours_div_cadre").load("html/S1/S1_Accueil.html");
+                }
+                );
                 break;
 
               case "S2":
@@ -94,9 +97,7 @@
             });
         });
       });   
-    	</script>
-      
-      </div>
+    	</script> </div>
       <div class="contenu_cours_div_cadre">
         <h3>Bienvenue sur le site de formation Savoirs Numériques.</h3>
         <br>
@@ -111,6 +112,5 @@
         <div> Copyright 2021 - Tous droits réservés - GRETA Normandie </div>
       </div>
     </div>
-
   </body>
 </html>

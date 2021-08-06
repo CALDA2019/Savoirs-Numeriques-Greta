@@ -34,7 +34,10 @@
             switch (section){
               case "S1":
                 $(".menu_div_cadre").empty();
-                $(".menu_div_cadre").load("html/S1/menu_S1.html");
+                $(".menu_div_cadre").load("html/S1/menu_S1.html", function(){
+                	$(".menu_div_cadre").load("html/S1/S1_Accueil.html");
+                }
+                );
                 break;
 
               case "S2":
@@ -89,20 +92,9 @@
                 $(".menu_div_cadre").empty();
                 $(".menu_div_cadre").load("html/S14/menu_S14.html");
                 break;
-             }    
-                
-            //$(".menu_div_cadre").empty();
-            //$(".menu_div_cadre").load("html/S1/menu_S1.html");    		
+             }   
+  		
             });
-          
-          
-          /***************************/
-          $("#S1").click(function() {      
-            //$(".menu_div_cadre").empty();
-            //$(".menu_div_cadre").load("html/S1/menu_S1.html");    		
-            });
-
-          /***************************/
         });
       });   
     	</script>
