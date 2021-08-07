@@ -64,38 +64,30 @@ width:15%;
 }
 
 ul.menu_div_element {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  background-color: #f1f1f1;
-}
-
-.menu_div_element{
-font-size: 100%;
-font-weight:bold;  
-text-align: left;
-padding-top:3px;
-padding-bottom:3px;
+list-style-type: none;
+margin: 0;
+padding: 0;
+width: 100%;
+background-color: #f1f1f1;
 }
 
 li.menu_div_element{
-  list-style-type: none;
-  margin: 0;
-  padding-top: 5px;
+margin: 0;
+padding-top: 5px;
 padding-bottom: 5px;
-  width: 100%;
-  background-color: #f1f1f1;
+width: 100%;
+background-color: #f1f1f1;
 vertical-align:middle;
-
 }
 
 
 /* Change the link color on hover */
 li.menu_div_element:hover {
-background-color: #555;
-color: white;
+background-color: #ccc;
+}
 
+li.menu_div_element a:hover {
+background-color: #ccc;
 }
 
 .menu_p_element{
