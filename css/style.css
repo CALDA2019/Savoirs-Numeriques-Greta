@@ -63,15 +63,48 @@ width:15%;
 
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
 .menu_div_element{
-    font-size: 100%;
-    font-weight:bold;  
-    text-align: left;
-height: 45px;
+font-size: 100%;
+font-weight:bold;  
+text-align: left;
 padding-top:3px;
 padding-bottom:3px;
 }
 
+li.menu_div_element{
+  list-style-type: none;
+  margin: 0;
+  padding-top: 5px;
+padding-bottom: 5px;
+  width: 100%;
+  background-color: #f1f1f1;
+vertical-align:middle;
+
+}
+
+
+/* Change the link color on hover */
+li.menu_div_element:hover {
+background-color: #555;
+color: white;
+
+}
+
+.menu_p_element{
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
 /**********************************************************************************************************/
 
 /*Mise en page du div contenant le cours*/
