@@ -84,6 +84,7 @@ vertical-align:middle;
 /* Change the link color on hover */
 li.menu_div_element:hover {
 background-color: #ccc;
+cursor: pointer;
 }
 
 li.menu_div_element a:hover {
