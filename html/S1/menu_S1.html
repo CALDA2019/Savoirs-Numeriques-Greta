@@ -6,12 +6,12 @@
   <body>
     <ul class="menu_div_element">
       <li class="menu_div_element" id="S1_0">Accueil</li>
-      <li class="menu_div_element" id="S1_0">S1.1 Prendre en main un ordinateur</li>
-      <li class="menu_div_element" id="S1_1">S1.2 Ouverture d'une session
+      <li class="menu_div_element" id="S1_1">S1.1 Prendre en main un ordinateur</li>
+      <li class="menu_div_element" id="S1_2">S1.2 Ouverture d'une session
         Windows</li>
       <li class="menu_div_element" id="S1_3">S1.3 Connaître et manipuler le
         clavier et la souris de l'ordinateur</li>
-      <li class="menu_div_element" id="S1_4">S1.4 Se repÃ©rer sur un écran,
+      <li class="menu_div_element" id="S1_4">S1.4 Se repérer sur un écran,
         identifier les icônes </li>
       <li class="menu_div_element" id="S1_5">S1.5 Ouvrir et fermer une
         application, utiliser le systême de fenêtre</li>
@@ -21,8 +21,36 @@
         applications</li>
       <li class="menu_div_element" id="S1_8">S.8 Identifier les différentes
         applications et logiciels installés sur son matériel</li>
-      <li class="menu_div_element" id="S1_9">S1.9 Se connecter à un
-        réseau Internet à partir de son matériel</li>
+      <li class="menu_div_element" id="S1_9">S1.9 Se connecter à un réseau
+        Internet à partir de son matériel</li>
     </ul>
+    
+    <script>
+    $(".menu_div_element").click(function() {
+            var section = $(this).attr("id");
+      			if(section=="S1_0")
+            {
+            	$(function(){
+                $(".menu_div_cadre").load("menu_accueil.html", function() {					
+                  $(".menu_div_element").click(function() {
+                    var section = $(this).attr("id");
+                    $(".menu_div_cadre").empty();
+                        $(".menu_div_cadre").load("html/"+section+"/menu_"+section+".html", function(){
+                          $(".contenu_cours_div_cadre").load("html/"+section+"/"+section+"_Accueil.html");
+                        }
+                        ); 
+                    });
+                });
+              }); 
+            }
+      			else
+            {
+            
+            }  
+            
+            
+    });
+    </script>
+    
   </body>
 </html>
