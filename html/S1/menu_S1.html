@@ -31,18 +31,22 @@
       			if(section=="S1_0")
             {
             	$(function(){
-                $(".contenu_cours_div_cadre").load("contenu_accueil.html");
-                $(".menu_div_cadre").load("menu_accueil.html", function() {					
-                  $(".menu_div_element").click(function() 
-                  {
-                    var section = $(this).attr("id");
-                    $(".menu_div_cadre").empty();
-                    $(".menu_div_cadre").load("html/"+section+"/menu_"+section+".html", function()
+                $(".contenu_cours_div_cadre").load("contenu_accueil.html", function() {	
+                  $(".menu_div_cadre").load("menu_accueil.html", function() {					
+                    $(".menu_div_element").click(function() 
                     {
-                      $(".contenu_cours_div_cadre").load("html/"+section+"/"+section+"_Accueil.html");
-                    }); 
+                      var section = $(this).attr("id");
+                      $(".menu_div_cadre").empty();
+                      $(".menu_div_cadre").load("html/"+section+"/menu_"+section+".html", function()
+                      {
+                        $(".contenu_cours_div_cadre").load("html/"+section+"/"+section+"_Accueil.html");
+                      }); 
+                    });
                   });
+                
                 });
+                
+                
               }); 
             }
       			else
