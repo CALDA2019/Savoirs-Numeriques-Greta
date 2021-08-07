@@ -52,17 +52,9 @@
           <li class="menu_div_element" id="S13">S13. Achat en ligne</li>
           <li class="menu_div_element" id="S14">S14. Service public</li>
           
-        </ul>      
+        </ul>    
 
-        <hr width="100%" align="left">
-        <div class="menu_div_element" id="S11">S11. Outils de recherche d'emploi
-        </div>
-        <div class="menu_div_element" id="S12">S12. Gérer son espace personnel
-          CPF </div>
-        <hr width="100%" align="left">
-        <div class="menu_div_element" id="S13">S13. Achat en ligne </div>
-        <div class="menu_div_element" id="S14">S14. Service public </div>
-        <hr width="100%" align="left"> </div>
+      </div>
       <div class="contenu_cours_div_cadre">
         <h3>Bienvenue sur le site de formation Savoirs Numériques.</h3>
         <br>
