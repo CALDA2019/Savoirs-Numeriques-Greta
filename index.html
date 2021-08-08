@@ -72,7 +72,7 @@
     if(section_menu != "PIX")
       {
         $.get("/html/"+section_menu+"/menu_"+section_menu+".html", function(data){
-        $('.menu_div_cadre').replaceWith($(data));
+        $('ul.menu_div_element').replaceWith($(data));
       });
       
     }
