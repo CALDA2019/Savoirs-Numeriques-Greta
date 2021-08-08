@@ -69,7 +69,7 @@
     $(document).on('click','.menu_li_element',function(){
         
       	section_menu = $(this).attr('id');
-      alert(section_menu.length);
+      
       
       	if(section_menu=="accueil" || section_menu.length==2 || section_menu.length==3)
         {
@@ -87,6 +87,7 @@
 
           else if(section_menu.length==4 || section_menu.length==5)
           {
+            alert("/html/"+section_menu.substring(0, section_menu.length - 2)+"/"+section_menu+"/"+section_menu+"_menu.html");
             $.get("/html/"+section_menu.substring(0, section_menu.length - 2)+"/"+section_menu+"/"+section_menu+"_menu.html", function(menu_contenu){
             $('.contenu_cours_div_cadre').replaceWith($(menu_contenu));
             });
