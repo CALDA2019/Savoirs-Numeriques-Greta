@@ -26,7 +26,7 @@
       <div class="menu_div_cadre">
             <ul class="menu_div_element">
       <a href="https://pix.fr/">
-        <li class="menu_div_element">PIX</li>
+        <li class="menu_div_element" id="PIX">PIX</li>
       </a>
       <li class="menu_div_element" id="S1">S1. Débuter avec le numérique</li>
       <li class="menu_div_element" id="S2">S2. Naviguer et Rechercher sur
@@ -65,10 +65,15 @@
   </body>
 </html>
 
-<script> 
+<script>
+  
  $('.menu_div_element').click(function(){
     var section_menu = $(this).attr('id');
-    alert(section_menu);
+    if(section_menu != "PIX")
+    {
+    	$('.menu_div_cadre').replaceWith("/html/"+section_menu+"/menu_"+section_menu+".html");
+    }
+      
 });
 
 </script> 
