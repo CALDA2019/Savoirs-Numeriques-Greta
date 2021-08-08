@@ -80,7 +80,8 @@
             
           });
         }
-      	else if(section_menu != "accueil")
+      	//else if(section_menu != "accueil")
+      else
         {
         	$.get("/html/"+section_menu+"/"+section_menu+"_menu.html", function(data_menu){
           $('.menu_div_cadre').replaceWith($(data_menu));
