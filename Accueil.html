@@ -3,7 +3,7 @@
 <html>
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <link rel="stylesheet" href="./Accueil_files/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Accueil</title>
     <script src="./Accueil_files/jquery.js.t%C3%A9l%C3%A9chargement"></script>
   </head>
@@ -27,41 +27,28 @@
       <div class="menu_div_cadre">
         <ul class="menu_ul_element">
           <li class="menu_li_element" id="accueil">Accueil</li>
-          <li class="menu_li_element" id="S1_1">S1.1 Prendre en main un
+          <li class="menu_li_element" id="S1">S1. Débuter avec le numérique</li>
+          <li class="menu_li_element" id="S1_1_1">Objectifs</li>
+          <li class="menu_li_element" id="S1_1_2">Contexte</li>
+          <li class="menu_li_element" id="S1_1_3">Matériel mis à disposition</li>
+          <li class="menu_li_element" id="S1_1_4">Présentation générale d’un
             ordinateur</li>
-          <li class="menu_li_element" id="S1_2">S1.2 Ouverture d'une session
-            Windows</li>
-          <li class="menu_li_element" id="S1_3">S1.3 Connaître et manipuler le
-            clavier et la souris de l'ordinateur</li>
-          <li class="menu_li_element" id="S1_4">S1.4 Se repérer sur un écran,
-            identifier les icônes </li>
-          <li class="menu_li_element" id="S1_5">S1.5 Ouvrir et fermer une
-            application, utiliser le systême de fenêtre</li>
-          <li class="menu_li_element" id="S1_6">S1.6 Couper/Copier/Coller des
-            donnés</li>
-          <li class="menu_li_element" id="S1_7">S1.7 Travailler avec plusieurs
-            applications</li>
-          <li class="menu_li_element" id="S1_8">S.8 Identifier les différentes
-            applications et logiciels installés sur son matériel</li>
-          <li class="menu_li_element" id="S1_9">S1.9 Se connecter à un réseau
-            Internet à partir de son matériel</li>
+          <li class="menu_li_element" id="S1_1_5">Présentation générale de la
+            tour</li>
         </ul>
       </div>
       <div class="contenu_cours_div_cadre">
-        <div class="sous_titre">S1 - Débuter avec le numérique</div>
-        <div class="corps_contenu_1col"> Dans cette partie, nous verrons les
-          bases du maniement d'un ordinateur.<br>
-          Cela comprend:<br>
+        <div class="bouton_precedent"><button> Suivant </button></div>
+        <div class="bouton_suivant"><button> Suivant </button></div>
+        <div class="sous_titre">S1.1 Prendre en main un ordinateur</div>
+        <div>
+          <h4>Objectifs</h4>
+        </div>
+        <div>
           <ul>
-            <li>Allumer et éteindre un ordinateur</li>
-            <li>Ouvrir sa session sur l'ordinateur</li>
-            <li>L'utilisation du clavier et de la souris</li>
-            <li>Se repérer dans l'interface de Windows</li>
-            <li>Ouvrir et fermer une application sur Windows</li>
-            <li>Prendre en main les bases du couper/coller et du copier/coller</li>
-            <li>Gérer plusieurs fenêtres et passer d'une fenêtre à une autre</li>
-            <li>Reconnaître les différents logiciels présents sur l'ordinateur</li>
-            <li>Savoir connecter un ordinateur portable à Internet</li>
+            <li>Connaître les différentes parties d’un ordinateur</li>
+            <li>Comprendre à quoi servent les différentes parties d'un
+              ordinateur</li>
           </ul>
         </div>
       </div>
@@ -71,22 +58,42 @@
       </div>
     </div>
     <script>
-		var section_menu;
+    var section_menu;
+    var sous_section_menu;
 
-    $('.menu_li_element').click(function(){
+    $(document).on('click','.menu_li_element',function(){
         
-      	section_menu = $(this).attr('id');
-      	alert(section_menu);
+      	section_menu = $(this).attr('id');      	
       
-      $.get("/html/"+section_menu+"/"+section_menu+"_menu.html", function(data_menu){
-        $('.menu_div_cadre').replaceWith($(data_menu));
-        });
-        $.get("/html/"+section_menu+"/"+section_menu+"_contenu.html", function(data_contenu){
-        $('.contenu_cours_div_cadre').replaceWith($(data_contenu));
-        });
-      	section_menu = undefined;
-        
-        
+      	if(section_menu=="accueil" || section_menu.length==2 || section_menu.length==3)
+        {
+        	if(section_menu != "PIX")
+          {
+            $.get("/html/"+section_menu+"/"+section_menu+"_menu.html", function(data_menu){
+            $('.menu_div_cadre').replaceWith($(data_menu));
+            });
+            $.get("/html/"+section_menu+"/"+section_menu+"_contenu.html", function(data_contenu){
+            $('.contenu_cours_div_cadre').replaceWith($(data_contenu));
+            });
+          }          
+        }
+      	else if(section_menu.length==4 || section_menu.length==5)
+          {
+            $.get("/html/"+section_menu.substring(0, section_menu.length - 2)+"/"+section_menu+"/"+section_menu+"_menu.html", function(menu_contenu){
+            $('.menu_div_cadre').replaceWith($(menu_contenu));
+            });
+            $.get("/html/"+section_menu.substring(0, section_menu.length - 2)+"/"+section_menu+"/"+section_menu+"_contenu.html", function(data_contenu){
+            $('.contenu_cours_div_cadre').replaceWith($(data_contenu));
+            });
+          }
+/*      	else if(section_menu.length==6 || section_menu.length==7 || section_menu !="accueil" )
+        {
+					  $.get("/html/"+section_menu.substring(0, section_menu.length - 4)+"/"+section_menu.substring(0, section_menu.length - 2)+"/"+section_menu+"_contenu.html", function(data_contenu){
+            $('.contenu_cours_div_cadre').replaceWith($(data_contenu));
+            });        
+          
+        }     */
+
 		});
 	
 
