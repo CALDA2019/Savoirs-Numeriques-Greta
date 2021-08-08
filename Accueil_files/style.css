@@ -114,13 +114,16 @@ vertical-align: top;
 /*Style des boutons Précédent et Suivant*/
 
 .bouton_precedent{
+float:left;
 text-align: left;
-width:41.5%;
+width:42.5%;
 }
 
 .bouton_suivant{
 text-align: right;
-width:41.5%;
+width:42.5%;
+margin-left:50%;
+left:50%;
 }
 
 /**********************************************************************************************************/
