@@ -79,7 +79,7 @@
       });
       
     }
-   	else if(section_menu != "accueil")
+   	else if(section_menu == "accueil")
     {
     	$.get("menu_"+section_menu+".html", function(data_menu){
         $('.menu_div_cadre').replaceWith($(data_menu));
