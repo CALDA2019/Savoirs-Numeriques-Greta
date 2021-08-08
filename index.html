@@ -75,7 +75,14 @@
            || test_id_menu=="S7" || test_id_menu=="S8" || test_id_menu=="S9" || test_id_menu=="S10" || test_id_menu=="S11" || test_id_menu=="S12" || test_id_menu=="S13" || test_id_menu=="S14")
         {
         	section_menu=test_id_menu;
+          sous_section_menu= undefined;
         }
+      	else
+        {
+        	section_menu=undefined;
+          sous_section_menu= test_id_menu;
+        }
+      
           
 
       
@@ -93,12 +100,21 @@
           });
         }
       	
-      	else 
+      	else if(section_menu!=undefined)
         {
         	$.get("/html/"+section_menu+"/"+section_menu+"_menu.html", function(data_menu){
           $('.menu_div_cadre').replaceWith($(data_menu));
           });
           $.get("/html/"+section_menu+"/"+section_menu+"_contenu.html", function(data_contenu){
+          $('.contenu_cours_div_cadre').replaceWith($(data_contenu));
+          });
+        }
+      	else if(sous_section_menu!=undefined)
+        {
+        	$.get("/html/"+sous_section_menu.substring(0, sous_section_menu.length - 2)+"/"+sous_section_menu+"_menu.html", function(data_menu){
+          $('.menu_div_cadre').replaceWith($(data_menu));
+          });
+          $.get("/html/"+sous_section_menu.substring(0, sous_section_menu.length - 2)+"/"+sous_section_menu+"_contenu.html", function(data_contenu){
           $('.contenu_cours_div_cadre').replaceWith($(data_contenu));
           });
         }
