@@ -67,9 +67,10 @@
     <script>
 
 
-    $('.menu_div_element').click(function(){
+    $('li.menu_div_element').click(function(){
         var section_menu = $(this).attr('id');
-        if(section_menu != "PIX")
+      alert(section_menu);
+        /*if(section_menu != "PIX")
           {
             $.get("/html/"+section_menu+"/"+section_menu+"_menu.html", function(data_menu){
             $('.menu_div_cadre').replaceWith($(data_menu));
@@ -87,7 +88,7 @@
             $.get(section_menu+"_contenu.html", function(data_contenu){
             $('.contenu_cours_div_cadre').replaceWith($(data_contenu));
           });
-        }  //End IF
+        }  //End IF*/
 
       });
 
