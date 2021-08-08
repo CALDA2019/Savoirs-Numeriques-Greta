@@ -65,23 +65,20 @@
       </div>
     </div>
     <script>
-
+		var section_menu;
 
     $('li.menu_div_element').click(function(){
-        var section_menu = $(this).attr('id');
+        
+      	section_menu = $(this).attr('id');
       	alert(section_menu);
         
-            $.get("/html/"+section_menu+"/"+section_menu+"_menu.html", function(data_menu){
-            $('.menu_div_cadre').replaceWith($(data_menu));
-            });
-            $.get("/html/"+section_menu+"/"+section_menu+"_contenu.html", function(data_contenu){
-            $('.contenu_cours_div_cadre').replaceWith($(data_contenu));
-          });
-
-        
-       
-
-      });
+        $.get("/html/"+section_menu+"/"+section_menu+"_menu.html", function(data_menu){
+        $('.menu_div_cadre').replaceWith($(data_menu));
+        });
+        $.get("/html/"+section_menu+"/"+section_menu+"_contenu.html", function(data_contenu){
+        $('.contenu_cours_div_cadre').replaceWith($(data_contenu));
+        });
+		});
 
 
  
