@@ -66,12 +66,16 @@
 </html>
 
 <script>
+
   
  $('.menu_div_element').click(function(){
     var section_menu = $(this).attr('id');
     if(section_menu != "PIX")
-    {
-    	$('.menu_div_cadre').replaceWith("/html/"+section_menu+"/menu_"+section_menu+".html");
+      {
+        $.get("/html/"+section_menu+"/menu_"+section_menu+".html", function(data){
+        $('.menu_div_cadre').replaceWith($(data));
+      });
+      //$('.menu_div_cadre').replaceWith("/html/"+section_menu+"/menu_"+section_menu+".html");
     }
       
 });
