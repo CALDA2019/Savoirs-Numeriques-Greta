@@ -73,6 +73,7 @@
       {
         $.get("/html/"+section_menu+"/menu_"+section_menu+".html", function(data1){
         $('ul.menu_div_element').replaceWith($(data1));
+        });
         $.get("/html/"+section_menu+"/"+section_menu+"_Accueil.html", function(data2){
         $('.contenu_cours_div_cadre').replaceWith($(data2));
       });
