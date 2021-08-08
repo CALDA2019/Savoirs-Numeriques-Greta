@@ -63,11 +63,23 @@
       </div>
     </div>
     <script>
+    var test_id_menu; //regarde si l'id correspond à une section ou à une sous-section
 		var section_menu;
+    var sous_section_menu;
 
     $(document).on('click','.menu_li_element',function(){
         
-      	section_menu = $(this).attr('id');
+      	test_id_menu = $(this).attr('id');
+      
+      	if(test_id_menu=="accueil" || test_id_menu=="S1" || test_id_menu=="S2" || test_id_menu=="S3" || test_id_menu=="S4" || test_id_menu=="S5" || test_id_menu=="S6" 
+           || test_id_menu=="S7" || test_id_menu=="S8" || test_id_menu=="S9" || test_id_menu=="S10" || test_id_menu=="S11" || test_id_menu=="S12" || test_id_menu=="S13" || test_id_menu=="S14")
+        {
+        	section_menu=test_id_menu;
+        }
+          
+
+      
+      
 
       	if(section_menu != "PIX")
         {
@@ -81,7 +93,7 @@
           });
         }
       	
-      	else //if(section_menu=="accueil" || )
+      	else 
         {
         	$.get("/html/"+section_menu+"/"+section_menu+"_menu.html", function(data_menu){
           $('.menu_div_cadre').replaceWith($(data_menu));
