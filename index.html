@@ -63,58 +63,52 @@
       </div>
     </div>
     <script>
-    var test_id_menu; //regarde si l'id correspond à une section ou à une sous-section
-		var section_menu;
+    var section_menu;
     var sous_section_menu;
 
     $(document).on('click','.menu_li_element',function(){
         
-      	test_id_menu = $(this).attr('id');
+      	section_menu = $(this).attr('id');
       
-      	if(test_id_menu=="accueil" || test_id_menu=="S1" || test_id_menu=="S2" || test_id_menu=="S3" || test_id_menu=="S4" || test_id_menu=="S5" || test_id_menu=="S6" 
-           || test_id_menu=="S7" || test_id_menu=="S8" || test_id_menu=="S9" || test_id_menu=="S10" || test_id_menu=="S11" || test_id_menu=="S12" || test_id_menu=="S13" || test_id_menu=="S14")
+      	if(section_menu=="accueil" || section_menu=="S1" || section_menu=="S2" || section_menu=="S3" || section_menu=="S4" || section_menu=="S5" || section_menu=="S6" 
+           || section_menu=="S7" || section_menu=="S8" || section_menu=="S9" || section_menu=="S10" || section_menu=="S11" || section_menu=="S12" || section_menu=="S13" || section_menu=="S14")
         {
-        	section_menu=test_id_menu;
-          sous_section_menu= undefined;
+        	if(section_menu != "PIX")
+          {
+            $.get("/html/"+section_menu+"/"+section_menu+"_menu.html", function(data_menu){
+            $('.menu_div_cadre').replaceWith($(data_menu));
+
+            });
+            $.get("/html/"+section_menu+"/"+section_menu+"_contenu.html", function(data_contenu){
+            $('.contenu_cours_div_cadre').replaceWith($(data_contenu));
+
+            });
+          }
+
+          else
+          {
+            $.get("/html/"+section_menu+"/"+section_menu+"_menu.html", function(data_menu){
+            $('.menu_div_cadre').replaceWith($(data_menu));
+            });
+            $.get("/html/"+section_menu+"/"+section_menu+"_contenu.html", function(data_contenu){
+            $('.contenu_cours_div_cadre').replaceWith($(data_contenu));
+            });
+          }
         }
       	else
         {
-        	section_menu=undefined;
-          sous_section_menu= test_id_menu;
-        }
-      
-      alert(test_id_menu);
-    
-      	if(section_menu != "PIX" && section_menu != undefined)
-        {
-        	$.get("/html/"+section_menu+"/"+section_menu+"_menu.html", function(data_menu){
-          $('.menu_div_cadre').replaceWith($(data_menu));
-            
-          });
-          $.get("/html/"+section_menu+"/"+section_menu+"_contenu.html", function(data_contenu){
-          $('.contenu_cours_div_cadre').replaceWith($(data_contenu));
-            
-          });
-        }
-      	
-      	else if(section_menu!=undefined)
-        {
-        	$.get("/html/"+section_menu+"/"+section_menu+"_menu.html", function(data_menu){
-          $('.menu_div_cadre').replaceWith($(data_menu));
-          });
-          $.get("/html/"+section_menu+"/"+section_menu+"_contenu.html", function(data_contenu){
-          $('.contenu_cours_div_cadre').replaceWith($(data_contenu));
-          });
-        }
-      	else if(sous_section_menu!=undefined)
-        {
-        	$.get("/html/"+sous_section_menu.substring(0, sous_section_menu.length - 2)+"/"+sous_section_menu+"_menu.html", function(data_menu){
+					$.get("/html/"+sous_section_menu.substring(0, sous_section_menu.length - 2)+"/"+sous_section_menu+"_menu.html", function(data_menu){
           $('.menu_div_cadre').replaceWith($(data_menu));
           });
           $.get("/html/"+sous_section_menu.substring(0, sous_section_menu.length - 2)+"/"+sous_section_menu+"_contenu.html", function(data_contenu){
           $('.contenu_cours_div_cadre').replaceWith($(data_contenu));
           });
-        }
+          
+          
+        }     
+
+    
+      	
         
         
         
