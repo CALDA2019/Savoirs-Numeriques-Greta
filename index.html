@@ -66,7 +66,7 @@
     </div>
     <script>
 
- $(document).ready(function(){
+
     $('li.menu_div_element').click(function(){
         var section_menu = $(this).attr('id');
         if(section_menu != "PIX")
@@ -78,7 +78,7 @@
             $('.contenu_cours_div_cadre').replaceWith($(data_contenu));
           });
 
-        }
+        }/*
         else if(section_menu == "accueil")
         {
           alert(section_menu);
@@ -88,10 +88,10 @@
             $.get("contenu_"+section_menu+".html", function(data_contenu){
             $('.contenu_cours_div_cadre').replaceWith($(data_contenu));
           });
-        }  //End IF
+        }  //End IF*/
 
       });
- }); 
+
 
  
       
