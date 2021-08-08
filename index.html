@@ -71,10 +71,10 @@
         var section_menu = $(this).attr('id');
         if(section_menu != "PIX")
           {
-            $.get("/html/"+section_menu+"/menu_"+section_menu+".html", function(data_menu){
+            $.get("/html/"+section_menu+"/"+section_menu+"menu.html", function(data_menu){
             $('.menu_div_cadre').replaceWith($(data_menu));
             });
-            $.get("/html/"+section_menu+"/"+section_menu+"_Accueil.html", function(data_contenu){
+            $.get("/html/"+section_menu+"/"+section_menu+"contenu.html", function(data_menu){
             $('.contenu_cours_div_cadre').replaceWith($(data_contenu));
           });
 
