@@ -79,6 +79,15 @@
       });
       
     }
+   	else if(section_menu != "accueil")
+    {
+    	$.get("menu_"+section_menu+".html", function(data_menu){
+        $('.menu_div_cadre').replaceWith($(data_menu));
+        });
+        $.get("contenu_"+section_menu+".html", function(data_contenu){
+        $('.contenu_cours_div_cadre').replaceWith($(data_contenu));
+      });
+    }  //End IF
       
 });
 
