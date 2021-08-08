@@ -65,7 +65,7 @@
     <script>
 		var section_menu;
 
-    $('.menu_li_element').click(function(){
+    $(document).on('click','.menu_li_element',function(){
         
       	section_menu = $(this).attr('id');
 
@@ -77,8 +77,8 @@
           $.get("/html/"+section_menu+"/"+section_menu+"_contenu.html", function(data_contenu){
           $('.contenu_cours_div_cadre').replaceWith($(data_contenu));
           });
-          
-          if(section_menu != "accueil")
+        }
+      	else if(section_menu != "accueil")
         {
         	$.get("/html/"+section_menu+"/"+section_menu+"_menu.html", function(data_menu){
           $('.menu_div_cadre').replaceWith($(data_menu));
@@ -86,10 +86,7 @@
           $.get("/html/"+section_menu+"/"+section_menu+"_contenu.html", function(data_contenu){
           $('.contenu_cours_div_cadre').replaceWith($(data_contenu));
           });
-        }
-        }
-      	
-      
+        }    
         
         
       	section_menu = undefined;
