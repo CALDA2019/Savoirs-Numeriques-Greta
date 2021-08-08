@@ -35,15 +35,13 @@
           <li class="menu_li_element" id="S4">S4. Communiquer par email</li>
           <li class="menu_li_element" id="S5">S5. Partager et publier</li>
           <li class="menu_li_element" id="S6">S6. Collaborer</li>
-          <li class="menu_li_element" id="S7">S7. Création de documents
-            textuels</li>
+          <li class="menu_li_element" id="S7">S7. Création de documents textuels</li>
           <li class="menu_li_element" id="S8">S8. Protéger les équipements</li>
           <li class="menu_li_element" id="S9">S9. Protéger les données
             personnelles et la vie privée</li>
           <li class="menu_li_element" id="S10">S10. Résoudre des problèmes
             techniques</li>
-          <li class="menu_li_element" id="S11">S11. Outils de recherche
-            d'emploi</li>
+          <li class="menu_li_element" id="S11">S11. Outils de recherche d'emploi</li>
           <li class="menu_li_element" id="S12">S12. Gérer son espace personnel
             CPF</li>
           <li class="menu_li_element" id="S13">S13. Achat en ligne</li>
@@ -57,8 +55,8 @@
         la fois en <b>centre de formation </b>mais aussi de <b>chez vous</b>
         ou en <b>EPN</b>.<br>
         <br>
-        Pour accéder à un des chapitres de la formation, <b>cliquez </b>sur le
-        titre du chapitre situé à <b>gauche </b>de cette page.</div>
+        Pour accéder à un des chapitres de la formation, <b>cliquez
+        </b>sur le titre du chapitre situé à <b>gauche </b>de cette page.</div>
       <div class="pied_page_div_cadre">
         <hr width="100%" align="center">
         <div> Copyright 2021 - Tous droits réservés - GRETA Normandie </div>
@@ -78,8 +76,9 @@
         $.get("/html/"+section_menu+"/"+section_menu+"_contenu.html", function(data_contenu){
         $('.contenu_cours_div_cadre').replaceWith($(data_contenu));
         });
+      	section_menu = undefined;
 		});
-
+	
 
  
       
