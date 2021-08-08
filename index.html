@@ -111,7 +111,10 @@
         }
       	else if(sous_section_menu!=undefined)
         {
-        	$.get("/html/"+sous_section_menu.substring(0, sous_section_menu.length - 2)+"/"+sous_section_menu+"_contenu.html", function(data_contenu){
+        	$.get("/html/"+sous_section_menu.substring(0, sous_section_menu.length - 2)+"/"+sous_section_menu+"_menu.html", function(data_menu){
+          $('.menu_div_cadre').replaceWith($(data_menu));
+          });
+          $.get("/html/"+sous_section_menu.substring(0, sous_section_menu.length - 2)+"/"+sous_section_menu+"_contenu.html", function(data_contenu){
           $('.contenu_cours_div_cadre').replaceWith($(data_contenu));
           });
         }
