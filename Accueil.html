@@ -1,91 +1,28 @@
-<!DOCTYPE html>
-<!-- saved from url=(0034)https://gretasavoirsnumeriques.fr/ -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <link rel="stylesheet" href="css/style.css">
-    <title>Accueil</title>
-    <script src="./Accueil_files/jquery.js.téléchargement"></script>
-  </head>
-  <body>
-    <div class="titre_div">
-      <div class="logos_div_gauche"> <a href="https://greta.ac-normandie.fr/greta/greta-du-calvados/"><img src="./Accueil_files/logo_greta_normandie.svg" alt="Logo GRETA" title="Logo GRETA" class="logos_img"></a> <a href="http://www.fse.gouv.fr/"><img src="./Accueil_files/3-Logo UE FSE couleur.jpg" alt="Logo FSE" title="Logo REGION" class="logos_img"></a> <a href="https://www.normandie.fr/"><img src="./Accueil_files/logo_r.normandie-portrait-cmjn.jpg" alt="Logo FSE" title="Logo FSE" class="logos_img"></a> </div>
-      <div class="titre_div_droite"> <a href="https://gretasavoirsnumeriques.fr/">SAVOIRS
-          NUMERIQUES</a> </div>
-    </div>
-    <div class="corps_site_div">
-      <div class="menu_div_cadre">
-    <ul class="menu_ul_element">
-	<li class="menu_li_element" id="accueil">Accueil</li>
-	<li class="menu_li_element" id="S1">S1. Débuter avec le numérique</li>
-	<li class="menu_li_element" id="S1_1_1">Objectifs</li>
-	<li class="menu_li_element" id="S1_1_2">Contexte</li>
-	<li class="menu_li_element" id="S1_1_3">Matériel mis à disposition</li>
-	<li class="menu_li_element" id="S1_1_4">Présentation générale d’un ordinateur</li>
-	<li class="menu_li_element" id="S1_1_5">Présentation générale de la tour</li>
-    </ul>
-    </div>
-      <div class="contenu_cours_div_cadre">
-<div class="bouton_precedent"><button> Suivant </button></div>
-<div class="bouton_suivant"><button> Suivant </button></div>
-<div class="sous_titre">S1.1 Prendre en main un ordinateur</div>
-<div><h4>Objectifs</h4></div>
-<div class="corps_contenu_1col">
-<ul>
-	<li>Connaître les différentes parties d’un ordinateur</li>
-        <li>Comprendre à quoi servent les différentes parties d'un ordinateur</li>
-</ul>
-</div></div>
-      <div class="pied_page_div_cadre">
-        <hr width="100%" align="center">
-        <div> Copyright 2021 - Tous droits réservés - GRETA Normandie </div>
-      </div>
-    </div>
-    <script>
-    var section_menu;
-    var sous_section_menu;
-
-    $(document).on('click','.menu_li_element',function(){
-        
-      	section_menu = $(this).attr('id');      	
-      
-      	if(section_menu=="accueil" || section_menu.length==2 || section_menu.length==3)
-        {
-        	if(section_menu != "PIX")
-          {
-            $.get("/html/"+section_menu+"/"+section_menu+"_menu.html", function(data_menu){
-            $('.menu_div_cadre').replaceWith($(data_menu));
-            });
-            $.get("/html/"+section_menu+"/"+section_menu+"_contenu.html", function(data_contenu){
-            $('.contenu_cours_div_cadre').replaceWith($(data_contenu));
-            });
-          }          
-        }
-      	else if(section_menu.length==4 || section_menu.length==5)
-          {
-            $.get("/html/"+section_menu.substring(0, section_menu.length - 2)+"/"+section_menu+"/"+section_menu+"_menu.html", function(menu_contenu){
-            $('.menu_div_cadre').replaceWith($(menu_contenu));
-            });
-            $.get("/html/"+section_menu.substring(0, section_menu.length - 2)+"/"+section_menu+"/"+section_menu+"_contenu.html", function(data_contenu){
-            $('.contenu_cours_div_cadre').replaceWith($(data_contenu));
-            });
-          }
-/*      	else if(section_menu.length==6 || section_menu.length==7 || section_menu !="accueil" )
-        {
-					  $.get("/html/"+section_menu.substring(0, section_menu.length - 4)+"/"+section_menu.substring(0, section_menu.length - 2)+"/"+section_menu+"_contenu.html", function(data_contenu){
-            $('.contenu_cours_div_cadre').replaceWith($(data_contenu));
-            });        
-          
-        }     */
-
-		});
-	
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
  
-      
-
-      
-
-</script>
-  
-
-</body></html>
+    <title>Hello, world!</title>
+  </head>
+  <body style="background-color: #eeeeee">
+    <div class="container" style="background-color: #ffffff">
+      <h1>Hello, world!</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipiscing elit,
+        interdum montes cum himenaeos est hac penatibus at, 
+        aliquet sollicitudin tempor nam tincidunt molestie. 
+        Sapien nulla lacus magnis rutrum pretium condimentum 
+        natoque etiam, primis tristique eleifend nisl phasellus 
+        cubilia leo suspendisse ridiculus, class faucibus purus 
+        nibh parturient ultrices morbi. Commodo egestas turpis 
+        aptent class placerat leo porta habitant faucibus, per 
+        eros dis donec malesuada lobortis ultrices.
+      </p>
+    </div>
+  </body>
+</html>
