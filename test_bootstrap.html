@@ -177,6 +177,43 @@
                 $('#sidebar').toggleClass('active');
             });
         });
+
+        var section_menu;
+
+$(document).on('click','.menu_li_element',function(){
+    
+      section_menu = $(this).attr('id');      	
+  
+      if(section_menu=="accueil" || section_menu.length==2 || section_menu.length==3)
+    {
+        if(section_menu != "PIX")
+      {
+        $.get("/html/"+section_menu+"/"+section_menu+"_menu.html", function(data_menu){
+        $('.menu_div_cadre').replaceWith($(data_menu));
+        });
+        $.get("/html/"+section_menu+"/"+section_menu+"_contenu.html", function(data_contenu){
+        $('.contenu_cours_div_cadre').replaceWith($(data_contenu));
+        });
+      }          
+    }
+      else if(section_menu.length==4 || section_menu.length==5)
+      {
+        $.get("/html/"+section_menu.substring(0, section_menu.length - 2)+"/"+section_menu+"/"+section_menu+"_menu.html", function(menu_contenu){
+        $('.menu_div_cadre').replaceWith($(menu_contenu));
+        });
+        $.get("/html/"+section_menu.substring(0, section_menu.length - 2)+"/"+section_menu+"/"+section_menu+"_contenu.html", function(data_contenu){
+        $('.contenu_cours_div_cadre').replaceWith($(data_contenu));
+        });
+      }
+      else if(section_menu.length==6 || section_menu.length==7 || section_menu !="accueil" )
+    {					
+      $.get("/html/"+section_menu.substring(0, section_menu.length - 4)+"/"+section_menu.substring(0, section_menu.length - 2)+"/"+section_menu+"_contenu.html", function(data_contenu){
+        $('.contenu_cours_div_cadre').replaceWith($(data_contenu));
+        });   
+      
+    }     
+
+    }); 
     </script>
 </body>
 
