@@ -31,7 +31,7 @@
                 </div>
     
                 <ul class="list-unstyled components">
-                    <li class="active" id="accueil">
+                    <li class="active">
                         <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false"><i class="fas fa-home"></i>
                             Accueil
                         </a>                    
@@ -187,7 +187,7 @@
 
         $(document).on('click','li',function(){
     
-      section_menu = $(this).attr('id');      	
+      section_menu = $(this).attr('id');          	
   
       if(section_menu=="accueil" || section_menu.length==2 || section_menu.length==3)
     {
