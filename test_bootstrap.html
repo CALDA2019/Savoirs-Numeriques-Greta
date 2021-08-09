@@ -144,8 +144,8 @@
                     </div>
                 </div>
             </nav>
-
-            <h2>Collapsible Sidebar Using Bootstrap 4</h2>
+            <div id="contenu_div">
+                <h2>Collapsible Sidebar Using Bootstrap 4</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
@@ -163,6 +163,9 @@
 
             <h3>Lorem Ipsum Dolor</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            </div>
+            
         </div>
     </div>
 
@@ -194,7 +197,7 @@ $(document).on('click','li',function(){
         $('#menu_div').replaceWith($(data_menu));
         });
         $.get("/html/"+section_menu+"/"+section_menu+"_contenu.html", function(data_contenu){
-        $('.contenu_cours_div_cadre').replaceWith($(data_contenu));
+        $('#contenu_div').replaceWith($(data_contenu));
         });
       }          
     }
@@ -204,13 +207,13 @@ $(document).on('click','li',function(){
         $('#menu_div').replaceWith($(menu_contenu));
         });
         $.get("/html/"+section_menu.substring(0, section_menu.length - 2)+"/"+section_menu+"/"+section_menu+"_contenu.html", function(data_contenu){
-        $('.contenu_cours_div_cadre').replaceWith($(data_contenu));
+        $('#contenu_div').replaceWith($(data_contenu));
         });
       }
       else if(section_menu.length==6 || section_menu.length==7 || section_menu !="accueil" )
     {					
       $.get("/html/"+section_menu.substring(0, section_menu.length - 4)+"/"+section_menu.substring(0, section_menu.length - 2)+"/"+section_menu+"_contenu.html", function(data_contenu){
-        $('.contenu_cours_div_cadre').replaceWith($(data_contenu));
+        $('#contenu_div').replaceWith($(data_contenu));
         });   
       
     }     
