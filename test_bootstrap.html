@@ -31,14 +31,12 @@
 
             <ul class="list-unstyled components">
                 <li class="active">
-                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">
-                        <i class="fas fa-home"></i>
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false"><i class="fas fa-home"></i>
                         Accueil
                     </a>                    
                 </li>
-                <li>
-                        <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">
-                        <i class="fas fa-copy"></i>
+                <li id="S1">
+                        <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false"><i class="fas fa-copy"></i>
                         S1. Débuter avec le numérique
                     </a>                    
                 </li>
@@ -180,7 +178,7 @@
 
         var section_menu;
 
-$(document).on('click','.menu_li_element',function(){
+$(document).on('click','li',function(){
     
       section_menu = $(this).attr('id');      	
   
@@ -189,7 +187,7 @@ $(document).on('click','.menu_li_element',function(){
         if(section_menu != "PIX")
       {
         $.get("/html/"+section_menu+"/"+section_menu+"_menu.html", function(data_menu){
-        $('.menu_div_cadre').replaceWith($(data_menu));
+        $('nav').replaceWith($(data_menu));
         });
         $.get("/html/"+section_menu+"/"+section_menu+"_contenu.html", function(data_contenu){
         $('.contenu_cours_div_cadre').replaceWith($(data_contenu));
@@ -199,7 +197,7 @@ $(document).on('click','.menu_li_element',function(){
       else if(section_menu.length==4 || section_menu.length==5)
       {
         $.get("/html/"+section_menu.substring(0, section_menu.length - 2)+"/"+section_menu+"/"+section_menu+"_menu.html", function(menu_contenu){
-        $('.menu_div_cadre').replaceWith($(menu_contenu));
+        $('nav').replaceWith($(menu_contenu));
         });
         $.get("/html/"+section_menu.substring(0, section_menu.length - 2)+"/"+section_menu+"/"+section_menu+"_contenu.html", function(data_contenu){
         $('.contenu_cours_div_cadre').replaceWith($(data_contenu));
