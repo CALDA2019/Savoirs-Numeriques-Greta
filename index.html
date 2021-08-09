@@ -185,7 +185,7 @@
         $('#menu_div').replaceWith($(data_menu));
         });
         $.get("/html/"+section_menu+"/"+section_menu+"_contenu.html", function(data_contenu){
-        $('#contenu_div').replaceWith($(data_contenu));
+        $('#content').replaceWith($(data_contenu));
         });
       }          
     }
@@ -195,13 +195,13 @@
         $('#menu_div').replaceWith($(menu_contenu));
         });
         $.get("/html/"+section_menu.substring(0, section_menu.length - 2)+"/"+section_menu+"/"+section_menu+"_contenu.html", function(data_contenu){
-        $('#contenu_div').replaceWith($(data_contenu));
+        $('#content').replaceWith($(data_contenu));
         });
       }
       else if(section_menu.length==6 || section_menu.length==7 || section_menu !="accueil" )
     {					
       $.get("/html/"+section_menu.substring(0, section_menu.length - 4)+"/"+section_menu.substring(0, section_menu.length - 2)+"/"+section_menu+"_contenu.html", function(data_contenu){
-        $('#contenu_div').replaceWith($(data_contenu));
+        $('#content').replaceWith($(data_contenu));
         });   
       
     }     
