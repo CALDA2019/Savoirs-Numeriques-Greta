@@ -1,106 +1,199 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Accueil</title>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Collapsible sidebar using Bootstrap 4</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="style4.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
     <script src="js/jquery.js"></script>
-  </head>
-  <body>
-    <div class="titre_div">
-      <div class="logos_div_gauche"> <a href="https://greta.ac-normandie.fr/greta/greta-du-calvados/"><img
+</head>
 
-            src="img/logo_greta_normandie.svg" alt="Logo GRETA" title="Logo GRETA"
+<body>
 
-            class="logos_img"></a> <a href="http://www.fse.gouv.fr/"><img src="img/3-Logo%20UE%20FSE%20couleur.jpg"
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <div class="wrapper" id="menu_div">
+            <nav id="sidebar">
+                <div class="sidebar-header">
+                    <h3>Savoirs Numériques</h3>
+                    <strong>SN</strong>
+                </div>
+      
+                <ul class="list-unstyled components">
+                    <li class="active" id="accueil">
+                        <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false"><i class="fas fa-home"></i>
+                            Accueil
+                        </a>                    
+                    </li>
+                    <li id="S1">
+                            <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false"><i class="fas fa-copy"></i>
+                            S1. Débuter avec le numérique
+                        </a>                    
+                    </li>
+                    <li id="S2">
+                        <a data-toggle="collapse" aria-expanded="false">
+                        <i class="fas fa-copy"></i>
+                        S2. Naviguer et Rechercher sur Internet
+                    </a>             
+                </li>
+                <li id="S3">
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">
+                    <i class="fas fa-copy"></i>
+                    S3. Gérer ses données
+                </a>
+                </li>
+                <li id="S4">
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">
+                    <i class="fas fa-copy"></i>
+                    S4. Communiquer par email
+                </a>
+                </li>
+                <li id="S5">
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">
+                    <i class="fas fa-copy"></i>
+                    S5. Partager et publier
+                </a>
+                </li>
+                <li id="S6">
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">
+                    <i class="fas fa-copy"></i>
+                    S6. Collaborer
+                </a>
+                </li>
+                <li id="S7">
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">
+                    <i class="fas fa-copy"></i>
+                    S7. Création de documents textuels
+                </a>
+                </li>
+                <li id="S8">
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">
+                    <i class="fas fa-copy"></i>
+                    S8. Protéger les équipements
+                </a>
+                </li id="S9">
+                <li>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">
+                    <i class="fas fa-copy"></i>
+                    S9. Protéger les données personnelles et la vie privée
+                </a>
+                <li id="S10">                
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">
+                    <i class="fas fa-copy"></i>S10. Résoudre des problèmes techniques</a></li>
+                <li id="S11">
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">
+                    <i class="fas fa-copy"></i>S11. Outils de recherche d'emploi</a></li>
+                <li id="S12">
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">
+                    <i class="fas fa-copy"></i>
+                    S12. Gérer son espace personnel CPF</a></li>
+                <li id="S13">
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">
+                    <i class="fas fa-copy"></i>S13. Achat en ligne</a>
+                </li>
+                <li id="S14">
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">
+                    <i class="fas fa-copy"></i>S14. Service public</a></li>
+      
+                </ul>            
+            </nav>
 
-            alt="Logo FSE" title="Logo REGION" class="logos_img"></a> <a href="https://www.normandie.fr/"><img
-
-            src="img/logo_r.normandie-portrait-cmjn.jpg" alt="Logo FSE" title="Logo FSE"
-
-            class="logos_img"></a> </div>
-      <div class="titre_div_droite"> <a href="https://gretasavoirsnumeriques.fr">SAVOIRS
-          NUMERIQUES</a> </div>
-    </div>
-    <div class="corps_site_div">
-      <div class="menu_div_cadre">
-        <ul class="menu_ul_element">
-          <a href="https://pix.fr/">
-            <li class="menu_li_element" id="PIX">PIX</li>
-          </a>
-          <li class="menu_li_element" id="S1">S1. Débuter avec le numérique</li>
-          <li class="menu_li_element" id="S2">S2. Naviguer et Rechercher sur
-            Internet</li>
-          <li class="menu_li_element" id="S3">S3. Gérer ses données</li>
-          <li class="menu_li_element" id="S4">S4. Communiquer par email</li>
-          <li class="menu_li_element" id="S5">S5. Partager et publier</li>
-          <li class="menu_li_element" id="S6">S6. Collaborer</li>
-          <li class="menu_li_element" id="S7">S7. Création de documents textuels</li>
-          <li class="menu_li_element" id="S8">S8. Protéger les équipements</li>
-          <li class="menu_li_element" id="S9">S9. Protéger les données
-            personnelles et la vie privée</li>
-          <li class="menu_li_element" id="S10">S10. Résoudre des problèmes
-            techniques</li>
-          <li class="menu_li_element" id="S11">S11. Outils de recherche d'emploi</li>
-          <li class="menu_li_element" id="S12">S12. Gérer son espace personnel
-            CPF</li>
-          <li class="menu_li_element" id="S13">S13. Achat en ligne</li>
-          <li class="menu_li_element" id="S14">S14. Service public</li>
-        </ul>
-      </div>
-      <div class="contenu_cours_div_cadre">
-        <div class="sous_titre">Bienvenue sur le site de formation Savoirs Numériques</div>
-          <div class="corps_contenu_1col">       
-          Vous trouverez ici le contenu et les supports de formation accessibles à
-          la fois en <b>centre de formation </b>mais aussi de <b>chez vous</b> ou en <b>EPN</b>.<br>
-          <br>
-          Pour accéder à un des chapitres de la formation, <b>cliquez</b> sur le titre du chapitre situé à <b>gauche </b>de cette page.
-          </div>      
-      </div>
-      <div class="pied_page_div_cadre">
-        <hr width="100%" align="center">
-        <div> Copyright 2021 - Tous droits réservés - GRETA Normandie </div>
-      </div>
-    <script>
-    var section_menu;
-
-    $(document).on('click','.menu_li_element',function(){
+        </div>
         
-      	section_menu = $(this).attr('id');      	
+
+        <!-- Page Content  -->
+        <div id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        <i class="fas fa-align-left"></i>
+                        <span>Menu</span>
+                    </button>
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">                        
+                    </div>
+                </div>
+            </nav>
+            <div id="contenu_div">
+                <h2>Bienvenue sur le site de formation Savoirs Numériques</h2>
+                     
+                  Vous trouverez ici le contenu et les supports de formation accessibles à la fois en <b>centre de formation </b>mais aussi de <b>chez vous</b> ou en <b>EPN</b>.<br>
+                  <br>
+                  Pour accéder à un des chapitres de la formation, <b>cliquez</b> sur le titre du chapitre situé à <b>gauche </b>de cette page.
+                  
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+
+        var section_menu;
+
+        $(document).on('click','li',function(){
+    
+      section_menu = $(this).attr('id');
       
-      	if(section_menu=="accueil" || section_menu.length==2 || section_menu.length==3)
-        {
-        	if(section_menu != "PIX")
-          {
-            $.get("/html/"+section_menu+"/"+section_menu+"_menu.html", function(data_menu){
-            $('.menu_div_cadre').replaceWith($(data_menu));
-            });
-            $.get("/html/"+section_menu+"/"+section_menu+"_contenu.html", function(data_contenu){
-            $('.contenu_cours_div_cadre').replaceWith($(data_contenu));
-            });
-          }          
-        }
-      	else if(section_menu.length==4 || section_menu.length==5)
-          {
-            $.get("/html/"+section_menu.substring(0, section_menu.length - 2)+"/"+section_menu+"/"+section_menu+"_menu.html", function(menu_contenu){
-            $('.menu_div_cadre').replaceWith($(menu_contenu));
-            });
-            $.get("/html/"+section_menu.substring(0, section_menu.length - 2)+"/"+section_menu+"/"+section_menu+"_contenu.html", function(data_contenu){
-            $('.contenu_cours_div_cadre').replaceWith($(data_contenu));
-            });
-          }
-      	else if(section_menu.length==6 || section_menu.length==7 || section_menu !="accueil" )
-        {					
-          $.get("/html/"+section_menu.substring(0, section_menu.length - 4)+"/"+section_menu.substring(0, section_menu.length - 2)+"/"+section_menu+"_contenu.html", function(data_contenu){
-            $('.contenu_cours_div_cadre').replaceWith($(data_contenu));
-            });   
-          
-        }     
-
-		}); 
-
+      if(section_menu=="accueil" || section_menu.length==2 || section_menu.length==3)
+      //if(section_menu=="accueil")
+    {
+        if(section_menu != "PIX")
+      {
+        $.get("/html/"+section_menu+"/"+section_menu+"_menu.html", function(data_menu){
+        $('#menu_div').replaceWith($(data_menu));
+        });
+        $.get("/html/"+section_menu+"/"+section_menu+"_contenu.html", function(data_contenu){
+        $('#contenu_div').replaceWith($(data_contenu));
+        });
+      }          
+    }
+      else if(section_menu.length==4 || section_menu.length==5)
+      {
+        $.get("/html/"+section_menu.substring(0, section_menu.length - 2)+"/"+section_menu+"/"+section_menu+"_menu.html", function(menu_contenu){
+        $('#menu_div').replaceWith($(menu_contenu));
+        });
+        $.get("/html/"+section_menu.substring(0, section_menu.length - 2)+"/"+section_menu+"/"+section_menu+"_contenu.html", function(data_contenu){
+        $('#contenu_div').replaceWith($(data_contenu));
+        });
+      }
+      else if(section_menu.length==6 || section_menu.length==7 || section_menu !="accueil" )
+    {					
+      $.get("/html/"+section_menu.substring(0, section_menu.length - 4)+"/"+section_menu.substring(0, section_menu.length - 2)+"/"+section_menu+"_contenu.html", function(data_contenu){
+        $('#contenu_div').replaceWith($(data_contenu));
+        });   
       
+    }     
 
-</script>
-  </body>
+    }); 
+    </script>
+</body>
+
 </html>
