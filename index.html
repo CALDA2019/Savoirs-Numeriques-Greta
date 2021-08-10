@@ -163,18 +163,18 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 
     <script type="text/javascript">
+    
     var id_click; //variable où sera stocké l'identifiant de la balise dans lequel est contenu l'id
-    $(document).ready(function () {
-            $(document).on('click', function () {
-                id_click = $(this).attr('id');
-                alert(section_menu);
-                if(id_click=="sidebar")
-                {
-                    $('#sidebar').toggleClass('active');
-                }
+    $(document).ready('click', function () {
+        id_click = $(this).attr('id');
+            alert(section_menu);
+            if(id_click=="sidebar")
+            {
+                $('#sidebar').toggleClass('active');
+            }
                 
-            });
-        });
+            
+    });
 
         /*
         var section_menu;
