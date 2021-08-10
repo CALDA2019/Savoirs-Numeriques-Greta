@@ -137,7 +137,7 @@
                         <span>Menu</span>
                     </button>
                     <button class="btn btn-dark d-inline-block float-right" type="button"> 
-                            <span class="button_span_titre"> Savoirs Numériques</span>   
+                            <span class="button_span_titre">Savoirs Numériques</span>   
                         
                     </button>
                     
@@ -167,44 +167,44 @@
             $('#sidebarCollapse').on('click', function () {
                 $('#sidebar').toggleClass('active');
             });
-        });
+    });
 
         
-        var section_menu;
+    var section_menu;
 
-        $(document).on('click','li',function(){
+    $(document).on('click','li',function(){
     
-      section_menu = $(this).attr('id');
-      //alert(section_menu);
-      
-      if(section_menu=="accueil" || section_menu.length==2 || section_menu.length==3)      
-    {
-        if(section_menu != "PIX")
-      {
-        $.get("/html/"+section_menu+"/"+section_menu+"_menu.html", function(data_menu){
-        $('#menu_div').replaceWith($(data_menu));
-        });
-        $.get("/html/"+section_menu+"/"+section_menu+"_contenu.html", function(data_contenu){
-        $('#contenu_div').replaceWith($(data_contenu));
-        });
-      }          
-    }
-      else if(section_menu.length==4 || section_menu.length==5)
-      {
-        $.get("/html/"+section_menu.substring(0, section_menu.length - 2)+"/"+section_menu+"/"+section_menu+"_menu.html", function(menu_contenu){
-        $('#menu_div').replaceWith($(menu_contenu));
-        });
-        $.get("/html/"+section_menu.substring(0, section_menu.length - 2)+"/"+section_menu+"/"+section_menu+"_contenu.html", function(data_contenu){
-        $('#contenu_div').replaceWith($(data_contenu));
-        });
-      }
-      else if(section_menu.length==6 || section_menu.length==7 || section_menu !="accueil" )
-    {					
-      $.get("/html/"+section_menu.substring(0, section_menu.length - 4)+"/"+section_menu.substring(0, section_menu.length - 2)+"/"+section_menu+"_contenu.html", function(data_contenu){
-        $('#contenu_div').replaceWith($(data_contenu));
-        });   
-      
-    }     
+        section_menu = $(this).attr('id');
+        //alert(section_menu);
+        
+        if(section_menu=="accueil" || section_menu.length==2 || section_menu.length==3)      
+        {
+            if(section_menu != "PIX")
+        {
+            $.get("/html/"+section_menu+"/"+section_menu+"_menu.html", function(data_menu){
+            $('#menu_div').replaceWith($(data_menu));
+            });
+            $.get("/html/"+section_menu+"/"+section_menu+"_contenu.html", function(data_contenu){
+            $('#contenu_div').replaceWith($(data_contenu));
+            });
+        }          
+        }
+        else if(section_menu.length==4 || section_menu.length==5)
+        {
+            $.get("/html/"+section_menu.substring(0, section_menu.length - 2)+"/"+section_menu+"/"+section_menu+"_menu.html", function(menu_contenu){
+            $('#menu_div').replaceWith($(menu_contenu));
+            });
+            $.get("/html/"+section_menu.substring(0, section_menu.length - 2)+"/"+section_menu+"/"+section_menu+"_contenu.html", function(data_contenu){
+            $('#contenu_div').replaceWith($(data_contenu));
+            });
+        }
+        else if(section_menu.length==6 || section_menu.length==7 || section_menu !="accueil" )
+        {					
+        $.get("/html/"+section_menu.substring(0, section_menu.length - 4)+"/"+section_menu.substring(0, section_menu.length - 2)+"/"+section_menu+"_contenu.html", function(data_contenu){
+            $('#contenu_div').replaceWith($(data_contenu));
+            });   
+        
+        }     
 
     }); 
     </script>
