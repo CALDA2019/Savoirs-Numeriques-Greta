@@ -174,7 +174,7 @@
     function renvoi_nom_section(section_menu){
         switch (section_menu){
             case "accueil":
-                return "Savoirs Numeriques";
+                return "Savoirs Numériques";
                 break;
             case "S1":
                 return "S1. Débuter avec le numérique";
@@ -238,6 +238,7 @@
             $.get("/html/"+section_menu+"/"+section_menu+"_contenu.html", function(data_contenu){
             $('#contenu_div').replaceWith($(data_contenu));
             $('.button_span_titre').html(renvoi_nom_section(section_menu));
+            $(".sidebar-header").scrollTop();
             });
 
         }          
