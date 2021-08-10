@@ -252,6 +252,7 @@ a.article:hover {
     #sidebarCollapse span {
         display: none;
     }
+    i,
     span {
         display: inline-block;
         font-size: 0.75em;
