@@ -164,7 +164,7 @@
 
     <script type="text/javascript">
     var id_click; //variable où sera stocké l'identifiant de la balise dans lequel est contenu l'id
-    $(document).ready(function () {
+    $(document).on(function () {
             $(document).on('click', function () {
                 id_click = $(this).attr('id');
                 alert(section_menu);
@@ -176,6 +176,7 @@
             });
         });
 
+        /*
         var section_menu;
 
         $(document).on('click','li',function(){
@@ -212,7 +213,7 @@
       
     }     
 
-    }); 
+    }); */
     </script>
 </body>
 
