@@ -252,4 +252,8 @@ a.article:hover {
     #sidebarCollapse span {
         display: none;
     }
+
+    .button_span_titre{
+        font-size: 1.3em;
+    }
 }
