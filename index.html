@@ -164,17 +164,11 @@
 
     <script type="text/javascript">
     
-    var id_click; //variable où sera stocké l'identifiant de la balise dans lequel est contenu l'id
-    $(document).ready('click', function () {
-        id_click = $(this).attr('id');
-            alert(section_menu);
-            if(id_click=="sidebar")
-            {
+    $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
                 $('#sidebar').toggleClass('active');
-            }
-                
-            
-    });
+            });
+        });
 
         /*
         var section_menu;
